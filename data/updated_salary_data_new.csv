@@ -1,0 +1,743 @@
+avg_salary,Location,job_state,Company_Size,Company_Size - Description,company_age,python_yn,R_yn,spark,aws,excel,Job_Title,Type of ownership_College / University,Type of ownership_Company - Private,Type of ownership_Company - Public,Type of ownership_Government,Type of ownership_Hospital,Type of ownership_Nonprofit Organization,Type of ownership_Other Organization,Type of ownership_School / School District,Type of ownership_Subsidiary or Business Segment,Type of ownership_Unknown
+72,"Albuquerque, NM", NM,4,501 to 1000 employees,47,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+87.5,"Linthicum, MD", MD,7,10000+ employees,36,1,0,0,0,0,data scientist,0,0,0,0,0,0,1,0,0,0
+85,"Clearwater, FL", FL,4,501 to 1000 employees,10,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+76.5,"Richland, WA", WA,5,1001 to 5000 employees,55,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+114.5,"New York, NY", NY,2,51 to 200 employees,22,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+95,"Dallas, TX", TX,3,201 to 500 employees,20,1,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+73.5,"Baltimore, MD", MD,4,501 to 1000 employees,12,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+114,"San Jose, CA", CA,3,201 to 500 employees,15,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+61,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,research scientist,0,0,0,0,1,0,0,0,0,0
+140,"New York, NY", NY,2,51 to 200 employees,11,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+163.5,"San Jose, CA", CA,4,501 to 1000 employees,9,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85,"Chantilly, VA", VA,6,5001 to 10000 employees,52,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+139,"Plano, TX", TX,7,10000+ employees,58,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+65.5,"Seattle, WA", WA,3,201 to 500 employees,8,1,0,1,1,1,data analyst,0,1,0,0,0,0,0,0,0,0
+113.5,"Cambridge, MA", MA,7,10000+ employees,239,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+146,"Newark, NJ", NJ,5,1001 to 5000 employees,25,0,0,0,0,1,data engineer i,0,0,0,0,0,0,0,0,1,0
+102,"Cambridge, MA", MA,2,51 to 200 employees,9,0,0,0,0,1,scientist i,0,0,1,0,0,0,0,0,0,0
+153.5,"Mountain View, CA", CA,3,201 to 500 employees,9,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+142.5,"San Francisco, CA", CA,2,51 to 200 employees,10,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+87.5,"Denver, CO", CO,4,501 to 1000 employees,105,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+105.5,"Seattle, WA", WA,3,201 to 500 employees,8,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+96,"Dallas, TX", TX,3,201 to 500 employees,7,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+112.5,"Chicago, IL", IL,4,501 to 1000 employees,25,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+84,"Louisville, KY", KY,2,51 to 200 employees,85,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+143,"Herndon, VA", VA,4,501 to 1000 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+86.5,"Cambridge, MA", MA,7,10000+ employees,171,1,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+99.5,"Hillsboro, OR", OR,5,1001 to 5000 employees,68,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+47.5,"Worcester, MA", MA,6,5001 to 10000 employees,168,0,0,0,0,1,junior data analyst,0,0,1,0,0,0,0,0,0,0
+84,"Groton, CT", CT,7,10000+ employees,171,0,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+85,"Clearwater, FL", FL,4,501 to 1000 employees,10,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+76.5,"Richland, WA", WA,5,1001 to 5000 employees,55,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+96,"Detroit, MI", MI,5,1001 to 5000 employees,23,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+114.5,"Cambridge, MA", MA,7,10000+ employees,24,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+121,"Sunnyvale, CA", CA,6,5001 to 10000 employees,24,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+112.5,"Ipswich, MA", MA,3,201 to 500 employees,46,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+106,"San Jose, CA", CA,3,201 to 500 employees,12,1,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+107,"Redlands, CA", CA,5,1001 to 5000 employees,51,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+110,"Woburn, MA", MA,3,201 to 500 employees,10,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+147.5,"Fremont, CA", CA,6,5001 to 10000 employees,150,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+106,"Long Beach, NY", NY,3,201 to 500 employees,35,1,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+88,"San Francisco, CA", CA,3,201 to 500 employees,12,1,0,0,1,1,data analyst,0,1,0,0,0,0,0,0,0,0
+98.5,"Marlborough, MA", MA,1,1 to 50 employees,-1,0,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+142.5,"San Francisco, CA", CA,2,51 to 200 employees,10,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+82.5,"Allendale, NJ", NJ,6,5001 to 10000 employees,5,0,0,0,1,0,scientist,0,0,1,0,0,0,0,0,0,0
+130,"Chicago, IL", IL,5,1001 to 5000 employees,27,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+155,"Washington, DC", DC,0,Unknown,-1,0,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+184.5,"Bellevue, WA", WA,7,10000+ employees,62,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+29.5,"Longmont, CO", CO,6,5001 to 10000 employees,34,0,0,0,0,1,junior data analyst,0,1,0,0,0,0,0,0,0,0
+86.5,"Beavercreek, OH", OH,4,501 to 1000 employees,21,0,0,0,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+81,"Peoria, IL", IL,7,10000+ employees,95,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+91,"Fort Lauderdale, FL", FL,4,501 to 1000 employees,36,1,0,0,0,1,data scientist,0,0,0,0,0,0,0,0,1,0
+114.5,"Boston, MA", MA,7,10000+ employees,108,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+68,"Huntsville, AL", AL,5,1001 to 5000 employees,18,1,0,0,0,1,data science,0,1,0,0,0,0,0,0,0,0
+115,"Armonk, NY", NY,7,10000+ employees,157,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+109.5,"San Diego, CA", CA,7,10000+ employees,81,0,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+75.5,"Albuquerque, NM", NM,6,5001 to 10000 employees,150,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+154.5,"San Francisco, CA", CA,4,501 to 1000 employees,8,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+143.5,"Saint Louis, MO", MO,2,51 to 200 employees,4,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+73.5,"Baltimore, MD", MD,4,501 to 1000 employees,12,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+95,"Dallas, TX", TX,3,201 to 500 employees,20,1,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+107,"Cincinnati, OH", OH,3,201 to 500 employees,135,1,0,0,1,0,data scientist,0,0,0,0,0,0,0,0,1,0
+115,"New York, NY", NY,3,201 to 500 employees,9,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+139.5,"Palo Alto, CA", CA,4,501 to 1000 employees,14,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+67,"Richland, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+85,"Coraopolis, PA", PA,7,10000+ employees,72,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+118,"Framingham, MA", MA,2,51 to 200 employees,14,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+79.5,"Atlanta, GA", GA,2,51 to 200 employees,17,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+56.5,"Boston, MA", MA,3,201 to 500 employees,21,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+128.5,"Philadelphia, PA", PA,1,1 to 50 employees,-1,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+97.5,"Vancouver, WA", WA,7,10000+ employees,81,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+66.5,"Indianapolis, IN", IN,1,1 to 50 employees,5,1,0,0,0,0,analytics consultant,0,1,0,0,0,0,0,0,0,0
+179.5,"Lake Forest, IL", IL,7,10000+ employees,93,1,0,0,0,1,"director, data science",0,0,1,0,0,0,0,0,0,0
+76,"Maryland Heights, MO", MO,4,501 to 1000 employees,42,0,0,0,0,1,scientist,0,0,0,0,0,0,0,0,1,0
+112,"Charlottesville, VA", VA,4,501 to 1000 employees,10,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+98,"Pittsburgh, PA", PA,5,1001 to 5000 employees,160,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+128,"Vancouver, WA", WA,7,10000+ employees,81,0,0,1,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+150.5,"Mountain View, CA", CA,3,201 to 500 employees,9,1,0,1,1,1,sales engineer,0,1,0,0,0,0,0,0,0,0
+87.5,"Cambridge, MA", MA,2,51 to 200 employees,20,0,0,0,1,0,research scientist,0,1,0,0,0,0,0,0,0,0
+110,"Chantilly, VA", VA,5,1001 to 5000 employees,3,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+113.5,"San Jose, CA", CA,7,10000+ employees,25,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+124,"San Francisco, CA", CA,2,51 to 200 employees,4,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+56.5,"Harrisburg, PA", PA,3,201 to 500 employees,23,0,0,0,0,1,junior data analyst,0,1,0,0,0,0,0,0,0,0
+130,"Laurel, MD", MD,6,5001 to 10000 employees,78,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+77.5,"Chicago, IL", IL,2,51 to 200 employees,12,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+87,"Arlington, VA", VA,3,201 to 500 employees,18,1,0,0,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+53.5,"Tacoma, WA", WA,4,501 to 1000 employees,72,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+139,"Plano, TX", TX,7,10000+ employees,58,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+114,"San Jose, CA", CA,3,201 to 500 employees,15,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+85.5,"Miami, FL", FL,4,501 to 1000 employees,12,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+48,"Huntsville, AL", AL,2,51 to 200 employees,24,0,0,0,0,1,data management specialist,0,1,0,0,0,0,0,0,0,0
+48,"New Orleans, LA", LA,2,51 to 200 employees,21,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+174,"San Francisco, CA", CA,3,201 to 500 employees,30,0,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+85,"Atlanta, GA", GA,6,5001 to 10000 employees,52,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+106.5,"Landover, MD", MD,2,51 to 200 employees,17,0,0,0,0,0,data modeler,0,1,0,0,0,0,0,0,0,0
+72.5,"Patuxent River, MD", MD,5,1001 to 5000 employees,32,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+85.5,"Suitland, MD", MD,7,10000+ employees,24,0,0,0,0,0,scientist,0,0,0,0,0,0,0,0,1,0
+97.5,"McLean, VA", VA,6,5001 to 10000 employees,62,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+99,"Fort Belvoir, VA", VA,4,501 to 1000 employees,10,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+56.5,"Milwaukee, WI", WI,5,1001 to 5000 employees,19,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+133,"Silver Spring, MD", MD,1,1 to 50 employees,13,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+121,"New York, NY", NY,2,51 to 200 employees,8,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85.5,"Syracuse, NY", NY,4,501 to 1000 employees,28,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+87.5,"Houston, TX", TX,5,1001 to 5000 employees,5,1,0,0,0,0,data scientist,0,0,0,0,0,0,0,0,1,0
+237.5,"Washington, DC", DC,5,1001 to 5000 employees,85,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+95.5,"Charlotte, NC", NC,5,1001 to 5000 employees,23,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+104.5,"Southfield, MI", MI,7,10000+ employees,26,1,0,1,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+56.5,"Matawan, NJ", NJ,3,201 to 500 employees,8,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+55,"Phoenix, AZ", AZ,3,201 to 500 employees,10,0,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+61.5,"Omaha, NE", NE,5,1001 to 5000 employees,43,0,0,0,0,1,research scientist,0,0,0,0,1,0,0,0,0,0
+157,"San Francisco, CA", CA,3,201 to 500 employees,14,0,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+78,"Lyndhurst, NJ", NJ,3,201 to 500 employees,1,1,0,0,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+113.5,"Cambridge, MA", MA,7,10000+ employees,239,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+140,"New York, NY", NY,2,51 to 200 employees,11,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+132.5,"San Francisco, CA", CA,2,51 to 200 employees,5,0,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+108,"San Francisco, CA", CA,6,5001 to 10000 employees,38,1,0,1,0,0,data engineer,0,0,1,0,0,0,0,0,0,0
+80.5,"Atlanta, IN", IN,4,501 to 1000 employees,83,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+107.5,"Rockville, MD", MD,3,201 to 500 employees,20,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+95,"Minneapolis, MN", MN,2,51 to 200 employees,24,0,0,1,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+119.5,"Los Angeles, CA", CA,5,1001 to 5000 employees,23,1,0,1,0,0,data scientist,0,0,0,0,0,1,0,0,0,0
+134,"Charlotte, NC", NC,5,1001 to 5000 employees,20,0,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+100.5,"Cambridge, MA", MA,3,201 to 500 employees,21,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+107.5,"Cincinnati, OH", OH,5,1001 to 5000 employees,142,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+122,"Washington, DC", DC,2,51 to 200 employees,5,1,0,1,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+92.5,"Chicago, IL", IL,5,1001 to 5000 employees,27,1,0,1,0,1,data engineer,0,0,1,0,0,0,0,0,0,0
+62,"Baltimore, MD", MD,4,501 to 1000 employees,34,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+39.5,"Alabaster, AL", AL,2,51 to 200 employees,20,0,0,0,0,0,project scientist,0,0,0,0,0,0,0,0,0,1
+107.5,"Santa Fe Springs, Los Angeles, CA", Los Angeles,5,1001 to 5000 employees,54,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+40.5,"Kansas City, MO", MO,4,501 to 1000 employees,3,1,0,0,1,1,data analytics manager,0,1,0,0,0,0,0,0,0,0
+89.5,"Ashburn, VA", VA,7,10000+ employees,62,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+81,"Chicago, IL", IL,3,201 to 500 employees,12,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+147,"Herndon, VA", VA,4,501 to 1000 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85,"Fort Worth, TX", TX,5,1001 to 5000 employees,62,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+81.5,"Valencia, CA", CA,5,1001 to 5000 employees,49,0,0,0,0,1,associate scientist,0,1,0,0,0,0,0,0,0,0
+168,"Novato, CA", CA,5,1001 to 5000 employees,23,0,0,0,0,1,scientist,0,0,1,0,0,0,0,0,0,0
+100.5,"Aurora, CO", CO,1,1 to 50 employees,13,1,0,1,1,1,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+97,"New York, NY", NY,5,1001 to 5000 employees,77,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+85,"Chantilly, VA", VA,6,5001 to 10000 employees,52,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+153.5,"Mountain View, CA", CA,3,201 to 500 employees,9,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+132.5,"Tampa, FL", FL,2,51 to 200 employees,3,0,0,0,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+100,"Chicago, IL", IL,2,51 to 200 employees,12,0,0,1,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+105,"Denver, CO", CO,3,201 to 500 employees,9,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+87,"Riverton, UT", UT,7,10000+ employees,-1,0,0,0,1,1,senior data engineer,0,0,0,0,0,1,0,0,0,0
+103.5,"San Francisco, CA", CA,2,51 to 200 employees,7,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+124,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,1,0,0,0,1,senior research scientist,1,0,0,0,0,0,0,0,0,0
+67,"Richland, WA", WA,5,1001 to 5000 employees,55,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+87,"Washington, DC", DC,7,10000+ employees,20,0,0,0,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+137.5,"Chicago, IL", IL,3,201 to 500 employees,9,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+100,"Cincinnati, OH", OH,3,201 to 500 employees,33,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+106.5,"Chattanooga, TN", TN,6,5001 to 10000 employees,75,0,0,0,0,1,data engineer ii,0,0,0,0,0,1,0,0,0,0
+98.5,"Richland, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+61,"Clearwater, FL", FL,4,501 to 1000 employees,10,1,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+106.5,"Indianapolis, IN", IN,2,51 to 200 employees,12,1,0,1,1,0,senior spark engineer,0,1,0,0,0,0,0,0,0,0
+84.5,"Cambridge, MA", MA,2,51 to 200 employees,15,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+109.5,"Ewing, NJ", NJ,5,1001 to 5000 employees,174,1,0,0,0,1,bi & platform analytics manager,0,0,1,0,0,0,0,0,0,0
+164,"Boston, MA", MA,6,5001 to 10000 employees,169,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+169,"South San Francisco, CA", CA,7,10000+ employees,44,1,0,1,0,1,data scientist,0,0,0,0,0,0,0,0,1,0
+142,"Cupertino, CA", CA,6,5001 to 10000 employees,24,1,0,1,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+76.5,"Boston, MA", MA,7,10000+ employees,239,0,0,0,0,1,pricipal scientist molecular and cellular biologist,0,0,1,0,0,0,0,0,0,0
+107,"Frederick, MD", MD,4,501 to 1000 employees,39,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+171.5,"San Jose, CA", CA,7,10000+ employees,50,1,0,0,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+96,"Dallas, TX", TX,3,201 to 500 employees,7,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+142.5,"San Francisco, CA", CA,2,51 to 200 employees,10,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+107,"Riverton, UT", UT,7,10000+ employees,-1,0,0,0,0,1,data engineer,0,0,0,0,0,1,0,0,0,0
+145,"Marlborough, MA", MA,5,1001 to 5000 employees,10,1,0,0,0,1,senior scientist - neuroscience,0,1,0,0,0,0,0,0,0,0
+61.5,"Herndon, VA", VA,3,201 to 500 employees,27,1,0,0,0,1,senior data analyst,0,0,0,0,0,1,0,0,0,0
+20.5,"West Reading, PA", PA,6,5001 to 10000 employees,3,0,0,0,0,0,medical lab scientist,0,0,0,0,0,1,0,0,0,0
+120,"Madison, WI", WI,2,51 to 200 employees,69,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+62,"Cambridge, MA", MA,3,201 to 500 employees,7,0,0,0,0,0,"scientist, analytical development",0,0,1,0,0,0,0,0,0,0
+150.5,"San Francisco, CA", CA,6,5001 to 10000 employees,38,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+87.5,"Dearborn, MI", MI,3,201 to 500 employees,53,0,0,0,0,1,analytics manager,0,1,0,0,0,0,0,0,0,0
+71.5,"Winter Park, FL", FL,2,51 to 200 employees,14,1,0,1,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+51.5,"San Rafael, CA", CA,2,51 to 200 employees,14,0,0,0,0,1,data analyst,0,0,0,0,0,0,0,0,1,0
+151.5,"San Diego, CA", CA,7,10000+ employees,239,0,0,0,0,1,senior scientist,0,0,1,0,0,0,0,0,0,0
+77.5,"Hamilton, NJ", NJ,3,201 to 500 employees,6,1,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+140,"Boston, MA", MA,7,10000+ employees,239,0,0,0,0,1,principal scientist - immunologist,0,0,1,0,0,0,0,0,0,0
+98.5,"Woodbridge, NJ", NJ,5,1001 to 5000 employees,38,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+225,"San Francisco, CA", CA,2,51 to 200 employees,3,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+27.5,"Lewes, DE", DE,5,1001 to 5000 employees,85,0,0,0,0,0,med tech/lab scientist,0,0,0,0,0,1,0,0,0,0
+161.5,"Boston, MA", MA,7,10000+ employees,239,0,0,0,0,0,senior data scientist,0,0,1,0,0,0,0,0,0,0
+147,"New York, NY", NY,5,1001 to 5000 employees,72,1,0,1,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+61,"Springfield, MO", MO,4,501 to 1000 employees,59,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+120,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,1,0,0,0,0,machine learning research scientist,1,0,0,0,0,0,0,0,0,0
+124.5,"Phoenix, AZ", AZ,5,1001 to 5000 employees,12,1,0,0,0,1,"vp, data science",0,0,1,0,0,0,0,0,0,0
+148,"Burbank, CA", CA,2,51 to 200 employees,11,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+59,"Huntsville, AL", AL,2,51 to 200 employees,24,1,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+146.5,"Worcester, MA", MA,6,5001 to 10000 employees,168,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+91.5,"Newton, MA", MA,3,201 to 500 employees,-1,0,0,0,0,1,pv scientist,0,0,1,0,0,0,0,0,0,0
+133,"Chicago, IL", IL,4,501 to 1000 employees,5,1,0,0,1,0,senior data & machine learning scientist,0,1,0,0,0,0,0,0,0,0
+140.5,"Salt Lake City, UT", UT,2,51 to 200 employees,7,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+70.5,"Lafayette, LA", LA,4,501 to 1000 employees,-1,0,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+84.5,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,principal scientist,0,0,0,0,1,0,0,0,0,0
+93.5,"Annapolis Junction, MD", MD,2,51 to 200 employees,18,0,0,0,0,1,software engineer,0,1,0,0,0,0,0,0,0,0
+134.5,"Cambridge, MA", MA,3,201 to 500 employees,7,0,0,0,0,0,scientist/senior scientist,0,0,1,0,0,0,0,0,0,0
+181,"San Francisco, CA", CA,3,201 to 500 employees,13,1,0,1,0,0,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+84.5,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,"principal scientist, hematology",0,0,0,0,1,0,0,0,0,0
+205,"Mountain View, CA", CA,2,51 to 200 employees,10,1,0,1,1,0,lead data engineer,0,1,0,0,0,0,0,0,0,0
+48.5,"Highland, CA", CA,5,1001 to 5000 employees,34,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+21.5,"Burleson, TX", TX,5,1001 to 5000 employees,43,0,0,0,1,0,medical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+52.5,"Hoopeston, IL", IL,4,501 to 1000 employees,-1,0,0,0,0,0,r&d specialist/ food scientist,0,1,0,0,0,0,0,0,0,0
+124,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,0,senior research scientist-machine learning,1,0,0,0,0,0,0,0,0,0
+64,"Scotts Valley, CA", CA,4,501 to 1000 employees,24,0,0,0,0,0,data analytics manager,0,0,0,0,0,1,0,0,0,0
+98,"Knoxville, TN", TN,7,10000+ employees,62,1,0,0,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+27.5,"Millville, DE", DE,5,1001 to 5000 employees,85,0,0,0,0,0,med tech/lab scientist,0,0,0,0,0,1,0,0,0,0
+54,"Milwaukee, WI", WI,4,501 to 1000 employees,56,0,0,0,0,0,food scientist - developer,0,1,0,0,0,0,0,0,0,0
+81,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,1,staff scientist-downstream process development,0,1,0,0,0,0,0,0,0,0
+107.5,"Chicago, IL", IL,5,1001 to 5000 employees,15,0,0,0,0,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+112.5,"Chicago, IL", IL,4,501 to 1000 employees,25,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+89,"Herndon, VA", VA,7,10000+ employees,25,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+100.5,"Sheboygan, WI", WI,5,1001 to 5000 employees,95,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+65,"New York, NY", NY,5,1001 to 5000 employees,18,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+20,"New Orleans, LA", LA,7,10000+ employees,90,0,0,0,0,0,medical technologist/clinical laboratory scientist,0,0,0,1,0,0,0,0,0,0
+72.5,"Dallas, TX", TX,3,201 to 500 employees,21,1,0,1,1,1,data scientist,0,0,0,0,0,0,0,0,1,0
+61,"Clearwater, FL", FL,4,501 to 1000 employees,10,1,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+109.5,"Ewing, NJ", NJ,5,1001 to 5000 employees,174,1,0,0,0,1,bi & platform analytics manager,0,0,1,0,0,0,0,0,0,0
+84.5,"Cambridge, MA", MA,2,51 to 200 employees,15,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+87.5,"Chicago, IL", IL,2,51 to 200 employees,28,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+92.5,"San Mateo, CA", CA,5,1001 to 5000 employees,23,1,1,0,0,1,data analyst,0,0,1,0,0,0,0,0,0,0
+81.5,"McLean, VA", VA,6,5001 to 10000 employees,62,1,0,1,0,0,data scientist,0,0,0,0,0,1,0,0,0,0
+79,"Dayton, OH", OH,5,1001 to 5000 employees,39,0,0,0,0,0,business intelligence analyst/developer,0,1,0,0,0,0,0,0,0,0
+164,"Boston, MA", MA,6,5001 to 10000 employees,169,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+169,"South San Francisco, CA", CA,7,10000+ employees,44,1,0,1,0,1,data scientist,0,0,0,0,0,0,0,0,1,0
+142,"Cupertino, CA", CA,6,5001 to 10000 employees,24,1,0,1,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+47.5,"Parlier, CA", CA,4,501 to 1000 employees,-1,0,0,0,0,1,data analyst,0,0,0,0,0,1,0,0,0,0
+76.5,"Boston, MA", MA,7,10000+ employees,239,0,0,0,0,1,pricipal scientist molecular and cellular biologist,0,0,1,0,0,0,0,0,0,0
+69,"San Francisco, CA", CA,2,51 to 200 employees,7,1,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+49,"Meridian, ID", ID,3,201 to 500 employees,36,1,1,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+171.5,"San Jose, CA", CA,7,10000+ employees,50,1,0,0,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+107,"Frederick, MD", MD,4,501 to 1000 employees,39,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+59,"Cherry Hill, NJ", NJ,3,201 to 500 employees,24,0,0,0,0,1,system and data analyst,0,1,0,0,0,0,0,0,0,0
+88.5,"Indianapolis, IN", IN,3,201 to 500 employees,1,0,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+107,"Riverton, UT", UT,7,10000+ employees,-1,0,0,0,0,1,data engineer,0,0,0,0,0,1,0,0,0,0
+86.5,"Cambridge, MA", MA,7,10000+ employees,171,1,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+84,"Louisville, KY", KY,2,51 to 200 employees,85,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+114.5,"New York, NY", NY,3,201 to 500 employees,28,1,0,0,0,1,data & analytics consultant,0,1,0,0,0,0,0,0,0,0
+145,"Marlborough, MA", MA,5,1001 to 5000 employees,10,1,0,0,0,1,senior scientist - neuroscience,0,1,0,0,0,0,0,0,0,0
+88,"Nashville, TN", TN,5,1001 to 5000 employees,14,1,0,1,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+100,"Chicago, IL", IL,4,501 to 1000 employees,19,1,0,1,1,0,big data engineer,0,1,0,0,0,0,0,0,0,0
+61.5,"Herndon, VA", VA,3,201 to 500 employees,27,1,0,0,0,1,senior data analyst,0,0,0,0,0,1,0,0,0,0
+96.5,"Portland, OR", OR,5,1001 to 5000 employees,21,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+76,"Minneapolis, MN", MN,3,201 to 500 employees,28,1,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+15.5,"Port Washington, NY", NY,5,1001 to 5000 employees,54,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+83.5,"Austin, TX", TX,1,1 to 50 employees,10,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+120,"Madison, WI", WI,2,51 to 200 employees,69,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+163,"South San Francisco, CA", CA,7,10000+ employees,44,0,0,0,0,1,data scientist,0,0,0,0,0,0,0,0,1,0
+100,"Providence, RI", RI,4,501 to 1000 employees,81,0,0,0,1,0,lead data analyst,0,0,0,0,0,1,0,0,0,0
+52.5,"Omaha, NE", NE,5,1001 to 5000 employees,103,0,0,0,0,1,research scientist,0,0,0,0,0,1,0,0,0,0
+20.5,"West Reading, PA", PA,6,5001 to 10000 employees,3,0,0,0,0,0,medical lab scientist,0,0,0,0,0,1,0,0,0,0
+50,"Washington, DC", DC,4,501 to 1000 employees,137,0,0,0,0,1,junior data analyst,0,0,0,0,0,1,0,0,0,0
+93,"Austin, TX", TX,3,201 to 500 employees,14,1,0,0,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+94.5,"Cincinnati, OH", OH,5,1001 to 5000 employees,133,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+150.5,"San Francisco, CA", CA,6,5001 to 10000 employees,38,1,0,1,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+102,"Raleigh, NC", NC,5,1001 to 5000 employees,16,1,0,1,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+62,"Cambridge, MA", MA,3,201 to 500 employees,7,0,0,0,0,0,"scientist, analytical development",0,0,1,0,0,0,0,0,0,0
+87.5,"Dearborn, MI", MI,3,201 to 500 employees,53,0,0,0,0,1,analytics manager,0,1,0,0,0,0,0,0,0,0
+84,"Groton, CT", CT,7,10000+ employees,171,0,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+143,"Herndon, VA", VA,4,501 to 1000 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+155,"Phila, PA", PA,1,1 to 50 employees,-1,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+71.5,"Winter Park, FL", FL,2,51 to 200 employees,14,1,0,1,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+108,"Oakland, CA", CA,2,51 to 200 employees,20,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+151.5,"San Diego, CA", CA,7,10000+ employees,239,0,0,0,0,1,senior scientist - digital & image analysis/computational pathology,0,0,1,0,0,0,0,0,0,0
+51.5,"San Rafael, CA", CA,2,51 to 200 employees,14,0,0,0,0,1,digital marketing & ecommerce data analyst,0,0,0,0,0,0,0,0,1,0
+140,"Boston, MA", MA,7,10000+ employees,239,0,0,0,0,1,principal scientist - immunologist,0,0,1,0,0,0,0,0,0,0
+77.5,"Hamilton, NJ", NJ,3,201 to 500 employees,6,1,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+63.5,"Boise, ID", ID,4,501 to 1000 employees,16,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+109,"San Francisco, CA", CA,1,1 to 50 employees,-1,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+96,"Oak Ridge, TN", TN,6,5001 to 10000 employees,170,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+225,"San Francisco, CA", CA,2,51 to 200 employees,3,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+101,"Agoura Hills, CA", CA,5,1001 to 5000 employees,12,1,0,0,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+98.5,"Woodbridge, NJ", NJ,5,1001 to 5000 employees,38,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+77.5,"Pella, IA", IA,5,1001 to 5000 employees,72,0,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+161.5,"Boston, MA", MA,7,10000+ employees,239,0,0,0,0,0,"senior scientist, quantitative translational sciences",0,0,1,0,0,0,0,0,0,0
+27.5,"Lewes, DE", DE,5,1001 to 5000 employees,85,0,0,0,0,0,med tech/lab scientist - laboratory,0,0,0,0,0,1,0,0,0,0
+147,"New York, NY", NY,5,1001 to 5000 employees,72,1,0,1,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+90,"San Ramon, CA", CA,7,10000+ employees,23,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+58,"Red Bank, NJ", NJ,4,501 to 1000 employees,118,0,0,0,1,0,data analyst,0,0,1,0,0,0,0,0,0,0
+61,"Springfield, MO", MO,4,501 to 1000 employees,59,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+120,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,1,0,0,0,0,machine learning research scientist,1,0,0,0,0,0,0,0,0,0
+128,"New York, NY", NY,5,1001 to 5000 employees,276,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+99.5,"Hillsboro, OR", OR,5,1001 to 5000 employees,68,1,0,1,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+96,"Detroit, MI", MI,5,1001 to 5000 employees,23,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+101,"Washington, DC", DC,3,201 to 500 employees,17,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+148,"Burbank, CA", CA,2,51 to 200 employees,11,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+142,"Fort Belvoir, VA", VA,4,501 to 1000 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+169,"Palo Alto, CA", CA,1,1 to 50 employees,13,0,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+124.5,"Phoenix, AZ", AZ,5,1001 to 5000 employees,12,1,0,0,0,1,"vp, data science",0,0,1,0,0,0,0,0,0,0
+59,"Huntsville, AL", AL,2,51 to 200 employees,24,1,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+52.5,"San Diego, CA", CA,2,51 to 200 employees,33,1,0,0,0,0,consultant,0,1,0,0,0,0,0,0,0,0
+75.5,"Houston, TX", TX,4,501 to 1000 employees,38,0,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+139,"Armonk, NY", NY,7,10000+ employees,157,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+102.5,"Cambridge, MA", MA,7,10000+ employees,239,1,0,1,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+60.5,"Columbia, SC", SC,3,201 to 500 employees,91,0,0,0,0,0,staff scientist,0,1,0,0,0,0,0,0,0,0
+146.5,"Worcester, MA", MA,6,5001 to 10000 employees,168,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+125,"South San Francisco, CA", CA,7,10000+ employees,44,0,0,0,0,1,"associate scientist/scientist, process analytical technology",0,0,0,0,0,0,0,0,1,0
+81,"Springfield, MA", MA,6,5001 to 10000 employees,169,1,0,0,0,0,senior data analyst,0,1,0,0,0,0,0,0,0,0
+133,"Chicago, IL", IL,4,501 to 1000 employees,5,1,0,0,1,0,senior data & machine learning scientist,0,1,0,0,0,0,0,0,0,0
+77,"Washington, DC", DC,7,10000+ employees,24,0,0,0,0,1,program/data analyst,0,0,0,0,0,0,0,0,1,0
+92,"Herndon, VA", VA,6,5001 to 10000 employees,52,0,0,0,0,0,data engineer,0,0,1,0,0,0,0,0,0,0
+121,"Cambridge, MA", MA,7,10000+ employees,24,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+162.5,"San Francisco, CA", CA,6,5001 to 10000 employees,38,1,0,1,0,1,principal data engineer,0,0,1,0,0,0,0,0,0,0
+60,"San Antonio, TX", TX,5,1001 to 5000 employees,73,0,0,0,0,0,research scientist - biological safety,0,0,0,0,0,1,0,0,0,0
+87.5,"San Francisco, CA", CA,3,201 to 500 employees,-1,1,0,0,0,1,data operations lead,0,0,0,0,0,1,0,0,0,0
+90.5,"Indianapolis, IN", IN,1,1 to 50 employees,5,1,0,1,0,0,big data engineer,0,1,0,0,0,0,0,0,0,0
+114.5,"Cambridge, MA", MA,7,10000+ employees,24,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+121,"Sunnyvale, CA", CA,6,5001 to 10000 employees,24,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+110,"Dallas, TX", TX,4,501 to 1000 employees,27,0,0,0,0,0,data scientist,0,0,0,0,0,0,0,0,1,0
+91.5,"Newton, MA", MA,3,201 to 500 employees,-1,0,0,0,0,1,pv scientist,0,0,1,0,0,0,0,0,0,0
+70.5,"Portsmouth, VA", VA,6,5001 to 10000 employees,52,0,0,0,0,0,clinical data analyst,0,0,1,0,0,0,0,0,0,0
+70.5,"Lafayette, LA", LA,4,501 to 1000 employees,-1,0,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+76.5,"Richland, WA", WA,5,1001 to 5000 employees,55,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+92,"Springfield, MA", MA,6,5001 to 10000 employees,169,1,0,1,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+140.5,"Salt Lake City, UT", UT,2,51 to 200 employees,7,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+82,"Arlington, VA", VA,5,1001 to 5000 employees,51,1,0,0,0,0,product engineer,0,1,0,0,0,0,0,0,0,0
+84.5,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,"principal scientist, chemistry & immunology",0,0,0,0,1,0,0,0,0,0
+134.5,"Cambridge, MA", MA,3,201 to 500 employees,7,0,0,0,0,0,"scientist/senior scientist, autoimmune",0,0,1,0,0,0,0,0,0,0
+164.5,"San Francisco, CA", CA,3,201 to 500 employees,12,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+44,"West Palm Beach, FL", FL,3,201 to 500 employees,29,0,0,0,0,0,data analyst,0,0,1,0,0,0,0,0,0,0
+93.5,"Annapolis Junction, MD", MD,2,51 to 200 employees,18,0,0,0,0,1,software engineer,0,1,0,0,0,0,0,0,0,0
+109,"Herndon, VA", VA,1,1 to 50 employees,5,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+149.5,"Austin, TX", TX,4,501 to 1000 employees,10,0,0,1,1,0,staff data engineer,0,1,0,0,0,0,0,0,0,0
+65.5,"Washington, DC", DC,5,1001 to 5000 employees,13,0,0,1,1,1,associate data engineer,0,1,0,0,0,0,0,0,0,0
+124.5,"Charlotte, NC", NC,5,1001 to 5000 employees,3,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+114,"San Jose, CA", CA,2,51 to 200 employees,22,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+49,"Exton, PA", PA,4,501 to 1000 employees,83,1,0,0,0,0,data analyst,0,0,0,0,0,1,0,0,0,0
+84.5,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,"principal scientist, hematology",0,0,0,0,1,0,0,0,0,0
+71,"Alexandria, VA", VA,4,501 to 1000 employees,31,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+101,"Boston, MA", MA,6,5001 to 10000 employees,169,0,0,0,0,0,director - data,0,1,0,0,0,0,0,0,0,0
+107,"Redlands, CA", CA,5,1001 to 5000 employees,51,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+112.5,"Ipswich, MA", MA,3,201 to 500 employees,46,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+181,"San Francisco, CA", CA,3,201 to 500 employees,13,1,0,1,0,0,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+61,"Chicago, IL", IL,7,10000+ employees,92,1,0,1,0,0,data analyst,0,0,1,0,0,0,0,0,0,0
+205,"Mountain View, CA", CA,2,51 to 200 employees,10,1,0,1,1,0,lead data engineer,0,1,0,0,0,0,0,0,0,0
+103.5,"Owensboro, KY", KY,6,5001 to 10000 employees,145,0,0,0,0,0,scientist manufacturing,0,1,0,0,0,0,0,0,0,0
+63,"Springfield, MA", MA,6,5001 to 10000 employees,169,0,0,0,0,1,data analytics project manager,0,1,0,0,0,0,0,0,0,0
+62.5,"Hartford, CT", CT,7,10000+ employees,39,0,0,0,0,1,consultant - analytics,0,0,1,0,0,0,0,0,0,0
+94.5,"Orange, CA", CA,4,501 to 1000 employees,7,1,0,1,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+48.5,"Highland, CA", CA,5,1001 to 5000 employees,34,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+154.5,"Marlborough, MA", MA,5,1001 to 5000 employees,10,1,0,0,0,1,senior scientist (neuroscience),0,1,0,0,0,0,0,0,0,0
+21.5,"Burleson, TX", TX,5,1001 to 5000 employees,43,0,0,0,1,0,medical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+87,"Lenexa, KS", KS,4,501 to 1000 employees,47,1,0,0,0,1,machine learning engineer,0,0,1,0,0,0,0,0,0,0
+52.5,"Hoopeston, IL", IL,4,501 to 1000 employees,-1,0,0,0,0,0,r&d specialist/ food scientist,0,1,0,0,0,0,0,0,0,0
+64.5,"New York, NY", NY,4,501 to 1000 employees,17,1,0,0,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+111.5,"Concord, CA", CA,3,201 to 500 employees,-1,0,0,0,0,1,"scientist, bacteriology",0,0,1,0,0,0,0,0,0,0
+154.5,"Cambridge, MA", MA,7,10000+ employees,239,0,0,1,1,1,"associate director,  data engineering and aritifical intelligence",0,0,1,0,0,0,0,0,0,0
+124,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,0,senior data scientist,1,0,0,0,0,0,0,0,0,0
+128.5,"Chicago, IL", IL,3,201 to 500 employees,12,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+31.5,"Vail, CO", CO,4,501 to 1000 employees,54,0,0,0,0,0,clinical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+64,"Scotts Valley, CA", CA,4,501 to 1000 employees,24,0,0,0,0,0,data analytics manager,0,0,0,0,0,1,0,0,0,0
+98,"Knoxville, TN", TN,7,10000+ employees,62,1,0,0,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+142.5,"San Francisco, CA", CA,2,51 to 200 employees,10,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+137,"New York, NY", NY,7,10000+ employees,107,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+99,"Denver, CO", CO,4,501 to 1000 employees,105,1,0,0,1,0,data engineer,0,0,0,0,0,1,0,0,0,0
+54,"Milwaukee, WI", WI,4,501 to 1000 employees,56,0,0,0,0,0,food scientist - developer,0,1,0,0,0,0,0,0,0,0
+139.5,"Natick, MA", MA,5,1001 to 5000 employees,36,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+109,"Rockville, MD", MD,3,201 to 500 employees,21,0,0,0,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+254,"Chicago, IL", IL,7,10000+ employees,108,1,0,0,0,0,"director ii, data science",0,1,0,0,0,0,0,0,0,0
+73,"South San Francisco, CA", CA,3,201 to 500 employees,8,0,0,0,0,0,"scientist, molecular/cellular biologist",0,0,0,0,0,0,0,0,1,0
+81,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,1,staff scientist,0,1,0,0,0,0,0,0,0,0
+27.5,"Millville, DE", DE,5,1001 to 5000 employees,85,0,0,0,0,0,med tech/lab scientist,0,0,0,0,0,1,0,0,0,0
+99.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,scientist - analytical services,0,1,0,0,0,0,0,0,0,0
+45.5,"Richfield, OH", OH,4,501 to 1000 employees,31,0,0,0,0,0,junior data analyst,0,1,0,0,0,0,0,0,0,0
+122.5,"Indianapolis, IN", IN,2,51 to 200 employees,24,1,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+140,"Chicago, IL", IL,6,5001 to 10000 employees,52,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+77.5,"Hampton, VA", VA,6,5001 to 10000 employees,62,0,0,0,0,0,senior data engineer,0,0,0,0,0,1,0,0,0,0
+26.5,"Cambridge, MA", MA,1,1 to 50 employees,44,0,0,0,0,1,environmental engineer,0,1,0,0,0,0,0,0,0,0
+117.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - regulatory submissions,0,1,0,0,0,0,0,0,0,0
+70.5,"San Diego, CA", CA,4,501 to 1000 employees,14,0,0,0,0,0,scientist - biomarker and flow cytometry,0,1,0,0,0,0,0,0,0,0
+61.5,"San Francisco, CA", CA,2,51 to 200 employees,9,0,0,0,0,1,revenue analytics manager,0,1,0,0,0,0,0,0,0,0
+70,"Ithaca, NY", NY,5,1001 to 5000 employees,5,0,0,0,0,1,associate scientist,0,1,0,0,0,0,0,0,0,0
+80,"Marietta, GA", GA,5,1001 to 5000 employees,5,0,0,0,0,1,senior scientist method development,0,1,0,0,0,0,0,0,0,0
+90,"Quincy, MA", MA,5,1001 to 5000 employees,32,0,0,1,0,1,data engineer ii,0,1,0,0,0,0,0,0,0,0
+120,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,1,"research scientist, immunology",0,1,0,0,0,0,0,0,0,0
+73.5,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,1,"project scientist - auton lab, robotics institute",1,0,0,0,0,0,0,0,0,0
+91,"Fort Lauderdale, FL", FL,4,501 to 1000 employees,36,1,0,0,0,1,data scientist,0,0,0,0,0,0,0,0,1,0
+155,"Washington, DC", DC,0,Unknown,-1,0,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+129.5,"Boston, MA", MA,6,5001 to 10000 employees,169,1,0,1,1,1,enterprise data architect,0,1,0,0,0,0,0,0,0,0
+167.5,"New York, NY", NY,7,10000+ employees,171,0,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+60,"Green Bay, WI", WI,5,1001 to 5000 employees,150,0,0,0,1,1,data analyst,0,0,1,0,0,0,0,0,0,0
+180,"Burbank, CA", CA,2,51 to 200 employees,11,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+65,"New York, NY", NY,5,1001 to 5000 employees,18,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+112.5,"Durham, NC", NC,6,5001 to 10000 employees,30,1,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+87.5,"New York, NY", NY,3,201 to 500 employees,10,1,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+51.5,"Indianapolis, IN", IN,7,10000+ employees,108,1,0,0,0,1,data solutions engineer,0,1,0,0,0,0,0,0,0,0
+51,"Clovis, CA", CA,2,51 to 200 employees,48,0,0,0,0,1,associate environmental scientist,0,1,0,0,0,0,0,0,0,0
+62.5,"Boston, MA", MA,7,10000+ employees,164,1,0,0,0,1,"associate, data science",0,1,0,0,0,0,0,0,0,0
+100,"Chandler, AZ", AZ,4,501 to 1000 employees,39,0,0,0,0,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+85,"Chantilly, VA", VA,2,51 to 200 employees,16,1,0,1,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+122,"Orlando, FL", FL,3,201 to 500 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+66.5,"Chicago, IL", IL,4,501 to 1000 employees,25,1,0,0,0,0,salesforce analytics consultant,0,1,0,0,0,0,0,0,0,0
+70.5,"Columbia, MO", MO,5,1001 to 5000 employees,18,0,0,1,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+138.5,"Austin, TX", TX,2,51 to 200 employees,10,1,0,1,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+107.5,"Boston, MA", MA,5,1001 to 5000 employees,77,0,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+120.5,"Cambridge, MA", MA,4,501 to 1000 employees,12,0,0,0,0,0,"scientist, pharmacometrics",0,0,1,0,0,0,0,0,0,0
+81,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+103.5,"Owensboro, KY", KY,6,5001 to 10000 employees,145,0,0,0,0,0,scientist manufacturing pharma - kentucky bioprocessing,0,1,0,0,0,0,0,0,0,0
+107.5,"Chicago, IL", IL,5,1001 to 5000 employees,15,0,0,0,0,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+162,"San Francisco, CA", CA,5,1001 to 5000 employees,13,1,0,1,1,1,lead big data engineer,0,1,0,0,0,0,0,0,0,0
+68.5,"Redlands, CA", CA,5,1001 to 5000 employees,51,1,0,1,0,1,product engineer,0,1,0,0,0,0,0,0,0,0
+110.5,"Westlake, OH", OH,7,10000+ employees,42,0,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+81,"Peoria, IL", IL,7,10000+ employees,95,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+130,"Chicago, IL", IL,5,1001 to 5000 employees,27,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+115.5,"Des Moines, IA", IA,3,201 to 500 employees,-1,1,0,0,0,1,senior data engineer,0,0,0,0,0,0,0,0,1,0
+80.5,"Richland, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+43,"Cedar Rapids, IA", IA,4,501 to 1000 employees,28,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+140,"Cambridge, MA", MA,3,201 to 500 employees,17,0,0,0,0,1,"associate director/director, safety scientist",0,0,1,0,0,0,0,0,0,0
+120,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,0,"senior scientist, cell pharmacology/assay development",0,1,0,0,0,0,0,0,0,0
+66.5,"Philadelphia, PA", PA,6,5001 to 10000 employees,37,0,0,0,0,1,data analyst senior,0,1,0,0,0,0,0,0,0,0
+94.5,"San Francisco, CA", CA,2,51 to 200 employees,14,1,0,0,1,0,lead data engineer,0,1,0,0,0,0,0,0,0,0
+119,"Seattle, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+25,"Omaha, NE", NE,7,10000+ employees,24,0,0,0,0,0,medical lab scientist - mlt,0,0,0,0,0,1,0,0,0,0
+13.5,"Nashville, TN", TN,6,5001 to 10000 employees,20,0,0,0,0,1,senior data analyst,0,0,1,0,0,0,0,0,0,0
+194.5,"Chicago, IL", IL,7,10000+ employees,108,1,0,0,0,0,"director, data science",0,1,0,0,0,0,0,0,0,0
+71.5,"San Antonio, TX", TX,5,1001 to 5000 employees,73,1,0,0,1,1,senior computer scientist,0,0,0,0,0,1,0,0,0,0
+105.5,"Austin, TX", TX,4,501 to 1000 employees,-1,1,0,0,1,0,data scientist,1,0,0,0,0,0,0,0,0,0
+74,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - toxicologist,0,1,0,0,0,0,0,0,0,0
+62.5,"Huntsville, AL", AL,7,10000+ employees,98,0,0,0,0,1,systems engineer ii,0,0,1,0,0,0,0,0,0,0
+65.5,"Durham, NC", NC,5,1001 to 5000 employees,62,0,0,0,0,0,senior research analytical scientist,0,0,0,0,0,1,0,0,0,0
+161.5,"Fort Lee, NJ", NJ,5,1001 to 5000 employees,31,1,0,0,1,1,director data science,0,1,0,0,0,0,0,0,0,0
+72.5,"Blue Bell, PA", PA,5,1001 to 5000 employees,17,0,0,0,0,1,senior data analyst,0,0,0,0,0,0,1,0,0,0
+139,"San Francisco, CA", CA,2,51 to 200 employees,12,1,0,0,1,1,senior data engineer,0,0,1,0,0,0,0,0,0,0
+136.5,"San Francisco, CA", CA,3,201 to 500 employees,13,0,0,0,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+74.5,"New York, NY", NY,5,1001 to 5000 employees,18,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+80.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - biostatistician,0,1,0,0,0,0,0,0,0,0
+75.5,"Albuquerque, NM", NM,6,5001 to 10000 employees,150,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+143.5,"Saint Louis, MO", MO,2,51 to 200 employees,4,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+101,"Springfield, VA", VA,2,51 to 200 employees,6,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+92,"Springfield, MA", MA,6,5001 to 10000 employees,169,1,0,1,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+76.5,"Richland, WA", WA,5,1001 to 5000 employees,55,1,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+140.5,"Salt Lake City, UT", UT,2,51 to 200 employees,7,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+116.5,"Jersey City, NJ", NJ,7,10000+ employees,208,0,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+232.5,"San Francisco, CA", CA,4,501 to 1000 employees,21,1,0,0,0,0,principal machine learning scientist,0,0,0,0,0,0,0,0,1,0
+120.5,"San Francisco, CA", CA,2,51 to 200 employees,4,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+82,"Arlington, VA", VA,5,1001 to 5000 employees,51,1,0,0,0,0,product engineer,0,1,0,0,0,0,0,0,0,0
+84.5,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,"principal scientist, chemistry & immunology",0,0,0,0,1,0,0,0,0,0
+153,"Emeryville, CA", CA,7,10000+ employees,13,1,0,1,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+127,"Palo Alto, CA", CA,4,501 to 1000 employees,12,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85.5,"Santa Barbara, CA", CA,2,51 to 200 employees,10,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+76.5,"Carle Place, NY", NY,5,1001 to 5000 employees,44,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+128,"New York, NY", NY,5,1001 to 5000 employees,28,1,0,1,0,0,data scientist,0,0,0,0,0,0,0,0,1,0
+91.5,"King of Prussia, PA", PA,1,1 to 50 employees,-1,1,0,1,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+134.5,"Cambridge, MA", MA,3,201 to 500 employees,7,0,0,0,0,0,"scientist/senior scientist, autoimmune",0,0,1,0,0,0,0,0,0,0
+164.5,"San Francisco, CA", CA,3,201 to 500 employees,12,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+93.5,"Annapolis Junction, MD", MD,2,51 to 200 employees,18,0,0,0,0,1,software engineer,0,1,0,0,0,0,0,0,0,0
+44,"West Palm Beach, FL", FL,3,201 to 500 employees,29,0,0,0,0,0,data analyst,0,0,1,0,0,0,0,0,0,0
+149.5,"Austin, TX", TX,4,501 to 1000 employees,10,0,0,1,1,0,staff data engineer,0,1,0,0,0,0,0,0,0,0
+65.5,"Washington, DC", DC,5,1001 to 5000 employees,13,0,0,1,1,1,associate data engineer,0,1,0,0,0,0,0,0,0,0
+109,"Herndon, VA", VA,1,1 to 50 employees,5,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+177,"Mountain View, CA", CA,5,1001 to 5000 employees,32,1,0,1,1,0,data engineer,0,0,0,0,0,0,0,0,1,0
+107,"Arlington, VA", VA,3,201 to 500 employees,10,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+154.5,"Santa Clara, CA", CA,4,501 to 1000 employees,8,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+113.5,"Santa Clara, CA", CA,1,1 to 50 employees,-1,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+124.5,"Charlotte, NC", NC,5,1001 to 5000 employees,3,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+143.5,"Brisbane, CA", CA,1,1 to 50 employees,-1,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+113.5,"San Francisco, CA", CA,1,1 to 50 employees,-1,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+101.5,"Springfield, VA", VA,7,10000+ employees,51,1,0,0,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+73,"New York, NY", NY,7,10000+ employees,85,0,0,0,1,1,data analyst,0,0,0,0,0,0,0,0,1,0
+80.5,"New York, NY", NY,7,10000+ employees,4,1,0,0,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+110.5,"New York, NY", NY,0,Unknown,-1,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+114,"San Jose, CA", CA,2,51 to 200 employees,22,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+139.5,"Foster City, CA", CA,2,51 to 200 employees,-1,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+145.5,"New York, NY", NY,1,1 to 50 employees,9,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+87,"New York, NY", NY,3,201 to 500 employees,13,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+100.5,"Holyoke, MA", MA,3,201 to 500 employees,135,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+147,"New York, NY", NY,7,10000+ employees,53,1,0,1,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+110.5,"New York, NY", NY,3,201 to 500 employees,106,1,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+49,"Exton, PA", PA,4,501 to 1000 employees,83,1,0,0,0,0,data analyst,0,0,0,0,0,1,0,0,0,0
+94,"Waltham, MA", MA,2,51 to 200 employees,-1,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+123.5,"New York, NY", NY,5,1001 to 5000 employees,21,1,0,0,1,0,data scientist,0,0,1,0,0,0,0,0,0,0
+84.5,"Rochester, NY", NY,7,10000+ employees,6,0,0,0,0,0,"principal scientist, hematology",0,0,0,0,1,0,0,0,0,0
+71,"Alexandria, VA", VA,4,501 to 1000 employees,31,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+73,"Corvallis, OR", OR,7,10000+ employees,81,0,0,0,0,0,software data engineer,0,0,1,0,0,0,0,0,0,0
+101,"Boston, MA", MA,6,5001 to 10000 employees,169,0,0,0,0,0,director - data,0,1,0,0,0,0,0,0,0,0
+181,"San Francisco, CA", CA,3,201 to 500 employees,13,1,0,1,0,0,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+109.5,"San Diego, CA", CA,7,10000+ employees,81,0,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+184.5,"Bellevue, WA", WA,7,10000+ employees,62,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+165,"New York, NY", NY,3,201 to 500 employees,6,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+61,"Chicago, IL", IL,7,10000+ employees,92,1,0,1,0,0,data analyst,0,0,1,0,0,0,0,0,0,0
+205,"Mountain View, CA", CA,2,51 to 200 employees,10,1,0,1,1,0,lead data engineer,0,1,0,0,0,0,0,0,0,0
+59.5,"New York, NY", NY,5,1001 to 5000 employees,14,1,0,0,0,1,data analyst,0,0,0,0,0,0,0,1,0,0
+103.5,"Owensboro, KY", KY,6,5001 to 10000 employees,145,0,0,0,0,0,scientist manufacturing - kentucky bioprocessing,0,1,0,0,0,0,0,0,0,0
+62.5,"Hartford, CT", CT,7,10000+ employees,39,0,0,0,0,1,consultant - analytics,0,0,1,0,0,0,0,0,0,0
+63,"Springfield, MA", MA,6,5001 to 10000 employees,169,0,0,0,0,1,data analytics project manager,0,1,0,0,0,0,0,0,0,0
+66,"New York, NY", NY,1,1 to 50 employees,40,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+94.5,"Orange, CA", CA,4,501 to 1000 employees,7,1,0,1,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+75.5,"New York, NY", NY,2,51 to 200 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+87,"Fort Belvoir, VA", VA,4,501 to 1000 employees,66,1,0,0,0,0,machine learning engineer,0,0,1,0,0,0,0,0,0,0
+140,"Gaithersburg, MD", MD,7,10000+ employees,107,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+86,"Silver Spring, MD", MD,3,201 to 500 employees,14,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+116.5,"Palo Alto, CA", CA,1,1 to 50 employees,8,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+154.5,"Marlborough, MA", MA,5,1001 to 5000 employees,10,1,0,0,0,1,senior scientist (neuroscience),0,1,0,0,0,0,0,0,0,0
+87,"Lenexa, KS", KS,4,501 to 1000 employees,47,1,0,0,0,1,machine learning engineer,0,0,1,0,0,0,0,0,0,0
+48.5,"Highland, CA", CA,5,1001 to 5000 employees,34,0,0,0,0,1, data analyst,0,1,0,0,0,0,0,0,0,0
+80,"Houston, TX", TX,4,501 to 1000 employees,18,1,0,1,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+21.5,"Burleson, TX", TX,5,1001 to 5000 employees,43,0,0,0,1,0,medical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+52.5,"Hoopeston, IL", IL,4,501 to 1000 employees,-1,0,0,0,0,0,r&d specialist/ food scientist,0,1,0,0,0,0,0,0,0,0
+173,"San Jose, CA", CA,7,10000+ employees,81,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+68.5,"Phoenix, AZ", AZ,4,501 to 1000 employees,23,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+172,"New York, NY", NY,5,1001 to 5000 employees,19,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+114.5,"Boston, MA", MA,7,10000+ employees,108,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+95,"Gaithersburg, MD", MD,7,10000+ employees,107,0,0,0,0,0,"associate principal scientist, pharmacogenomics",0,0,1,0,0,0,0,0,0,0
+69.5,"Bedford, MA", MA,6,5001 to 10000 employees,62,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+64.5,"New York, NY", NY,4,501 to 1000 employees,17,1,0,0,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+111.5,"Concord, CA", CA,3,201 to 500 employees,-1,0,0,0,0,1,"scientist, bacteriology",0,0,1,0,0,0,0,0,0,0
+97.5,"New York, NY", NY,4,501 to 1000 employees,13,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+154.5,"Cambridge, MA", MA,7,10000+ employees,239,0,0,1,1,1,"associate director, platform and devops- data engineering and aritifical intelligence",0,0,1,0,0,0,0,0,0,0
+124,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,0,senior data scientist-machine learning,1,0,0,0,0,0,0,0,0,0
+95,"New York, NY", NY,3,201 to 500 employees,9,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+128.5,"Chicago, IL", IL,3,201 to 500 employees,12,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+194,"San Francisco, CA", CA,4,501 to 1000 employees,14,0,0,0,1,1,data scientist,0,0,0,0,0,0,0,0,1,0
+104.5,"New York, NY", NY,3,201 to 500 employees,15,1,0,1,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+31.5,"Vail, CO", CO,4,501 to 1000 employees,54,0,0,0,0,0,clinical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+85.5,"Charlotte, NC", NC,3,201 to 500 employees,12,1,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+50,"Salt Lake City, UT", UT,7,10000+ employees,-1,0,0,0,1,1,data analyst,0,0,0,0,0,1,0,0,0,0
+113,"Aliso Viejo, CA", CA,5,1001 to 5000 employees,23,1,0,1,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+90.5,"Cambridge, MA", MA,7,10000+ employees,190,0,0,0,1,0,"scientist, immuno-oncology",0,0,1,0,0,0,0,0,0,0
+153,"Los Angeles, CA", CA,2,51 to 200 employees,12,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+123.5,"Dublin, CA", CA,5,1001 to 5000 employees,32,0,0,0,0,1,products data analyst ii,0,0,1,0,0,0,0,0,0,0
+47,"New York, NY", NY,3,201 to 500 employees,10,0,0,1,0,0,lead data analyst,0,1,0,0,0,0,0,0,0,0
+64,"Scotts Valley, CA", CA,4,501 to 1000 employees,24,0,0,0,0,0,data analytics manager,0,0,0,0,0,1,0,0,0,0
+162,"San Jose, CA", CA,7,10000+ employees,38,1,0,0,0,1,data engineer,0,0,1,0,0,0,0,0,0,0
+137,"New York, NY", NY,7,10000+ employees,107,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+98,"Knoxville, TN", TN,7,10000+ employees,62,1,0,0,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+115,"Armonk, NY", NY,7,10000+ employees,157,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+133.5,"Arvada, CO", CO,6,5001 to 10000 employees,150,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+99,"Denver, CO", CO,4,501 to 1000 employees,105,1,0,0,1,0,data engineer,0,0,0,0,0,1,0,0,0,0
+54,"Milwaukee, WI", WI,4,501 to 1000 employees,56,0,0,0,0,0,food scientist - developer,0,1,0,0,0,0,0,0,0,0
+109,"Franklin, TN", TN,5,1001 to 5000 employees,16,0,0,0,1,1,senior data engineer,0,1,0,0,0,0,0,0,0,0
+109,"Rockville, MD", MD,3,201 to 500 employees,21,0,0,0,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+139.5,"Natick, MA", MA,5,1001 to 5000 employees,36,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+254,"Chicago, IL", IL,7,10000+ employees,108,1,0,0,0,0,"director ii, data science - grm actuarial",0,1,0,0,0,0,0,0,0,0
+125,"New York, NY", NY,5,1001 to 5000 employees,45,1,0,0,1,1,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+106.5,"Cambridge, MA", MA,7,10000+ employees,24,1,0,0,0,0,"sr expert data science, advanced visual analytics",0,0,1,0,0,0,0,0,0,0
+73,"South San Francisco, CA", CA,3,201 to 500 employees,8,0,0,0,0,0,"scientist, molecular/cellular biologist",0,0,0,0,0,0,0,0,1,0
+81,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,1,staff scientist-downstream process development,0,1,0,0,0,0,0,0,0,0
+27.5,"Millville, DE", DE,5,1001 to 5000 employees,85,0,0,0,0,0,med tech/lab scientist,0,0,0,0,0,1,0,0,0,0
+99.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,scientist - analytical services,0,1,0,0,0,0,0,0,0,0
+45.5,"Richfield, OH", OH,4,501 to 1000 employees,31,0,0,0,0,0,junior data analyst,0,1,0,0,0,0,0,0,0,0
+54,"Worcester, MA", MA,6,5001 to 10000 employees,168,0,0,0,0,0,it junior data analyst,0,0,1,0,0,0,0,0,0,0
+122.5,"Indianapolis, IN", IN,2,51 to 200 employees,24,1,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+37.5,"Tampa, FL", FL,5,1001 to 5000 employees,43,0,0,0,0,1,clinical data analyst,0,0,0,0,0,0,0,0,1,0
+53.5,"New York, NY", NY,5,1001 to 5000 employees,18,1,0,0,0,1,business data analyst,0,1,0,0,0,0,0,0,0,0
+140,"Chicago, IL", IL,6,5001 to 10000 employees,52,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+77.5,"Hampton, VA", VA,6,5001 to 10000 employees,62,0,0,0,0,0,senior data science systems engineer,0,0,0,0,0,1,0,0,0,0
+26.5,"Cambridge, MA", MA,1,1 to 50 employees,44,0,0,0,0,1,environmental engineer,0,1,0,0,0,0,0,0,0,0
+117.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - regulatory submissions,0,1,0,0,0,0,0,0,0,0
+70.5,"San Diego, CA", CA,4,501 to 1000 employees,14,0,0,0,0,0,scientist - biomarker and flow cytometry,0,1,0,0,0,0,0,0,0,0
+70,"Ithaca, NY", NY,5,1001 to 5000 employees,5,0,0,0,0,1,associate scientist,0,1,0,0,0,0,0,0,0,0
+61.5,"San Francisco, CA", CA,2,51 to 200 employees,9,0,0,0,0,1,revenue analytics manager,0,1,0,0,0,0,0,0,0,0
+80,"Marietta, GA", GA,5,1001 to 5000 employees,5,0,0,0,0,1,senior scientist,0,1,0,0,0,0,0,0,0,0
+79.5,"Atlanta, GA", GA,2,51 to 200 employees,17,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+168,"Mountain View, CA", CA,4,501 to 1000 employees,6,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+90,"Quincy, MA", MA,5,1001 to 5000 employees,32,0,0,1,0,1, data engineer ii,0,1,0,0,0,0,0,0,0,0
+120,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,1,"research scientist, immunology - cancer biology",0,1,0,0,0,0,0,0,0,0
+138.5,"San Francisco, CA", CA,2,51 to 200 employees,12,1,0,0,0,0,senior data analyst,0,0,1,0,0,0,0,0,0,0
+111.5,"Plymouth Meeting, PA", PA,7,10000+ employees,3,0,0,0,0,0,"principal, data science",0,0,1,0,0,0,0,0,0,0
+68.5,"Boston, MA", MA,6,5001 to 10000 employees,169,0,0,0,0,1,data science project manager,0,1,0,0,0,0,0,0,0,0
+84.5,"Cambridge, MA", MA,7,10000+ employees,190,0,0,0,1,0,"senior scientist, oncology",0,0,1,0,0,0,0,0,0,0
+102.5,"Nashville, TN", TN,5,1001 to 5000 employees,14,1,0,1,1,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+73.5,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,1,project scientist,1,0,0,0,0,0,0,0,0,0
+93.5,"Beavercreek, OH", OH,4,501 to 1000 employees,53,1,0,0,0,0,data scientist,0,0,0,0,0,1,0,0,0,0
+127.5,"Allentown, PA", PA,1,1 to 50 employees,-1,0,0,0,0,1,data science manager,0,1,0,0,0,0,0,0,0,0
+72,"Salt Lake City, UT", UT,7,10000+ employees,-1,0,0,0,0,0,data analyst,0,0,0,0,0,1,0,0,0,0
+129.5,"Boston, MA", MA,6,5001 to 10000 employees,169,1,0,1,1,1,enterprise data architect,0,1,0,0,0,0,0,0,0,0
+47,"Logan, UT", UT,5,1001 to 5000 employees,43,1,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+65,"Birmingham, AL", AL,4,501 to 1000 employees,6,1,0,1,1,1,data engineer,0,0,0,0,0,0,0,0,1,0
+60,"Green Bay, WI", WI,5,1001 to 5000 employees,150,0,0,0,1,1,data analyst,0,0,1,0,0,0,0,0,0,0
+167.5,"New York, NY", NY,7,10000+ employees,171,0,0,0,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+65,"New York, NY", NY,5,1001 to 5000 employees,18,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+94,"Herndon, VA", VA,4,501 to 1000 employees,8,1,0,0,0,0,senior data analyst,0,1,0,0,0,0,0,0,0,0
+87.5,"New York, NY", NY,3,201 to 500 employees,10,1,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+97,"Reston, VA", VA,4,501 to 1000 employees,8,1,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+112.5,"Durham, NC", NC,6,5001 to 10000 employees,30,1,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+91.5,"Boston, MA", MA,6,5001 to 10000 employees,169,0,0,1,1,1,data modeler,0,1,0,0,0,0,0,0,0,0
+51.5,"Indianapolis, IN", IN,7,10000+ employees,108,1,0,0,0,1, data solutions engineer,0,1,0,0,0,0,0,0,0,0
+114.5,"Cambridge, MA", MA,7,10000+ employees,24,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+115,"New York, NY", NY,3,201 to 500 employees,9,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+74,"Phila, PA", PA,1,1 to 50 employees,-1,1,0,0,1,0,product manager,0,1,0,0,0,0,0,0,0,0
+51,"Clovis, CA", CA,2,51 to 200 employees,48,0,0,0,0,1,associate environmental scientist,0,1,0,0,0,0,0,0,0,0
+100,"Chandler, AZ", AZ,4,501 to 1000 employees,39,0,0,0,0,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+121,"Cambridge, MA", MA,7,10000+ employees,24,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+121.5,"San Francisco, CA", CA,3,201 to 500 employees,14,0,0,0,0,0,senior data analyst/scientist,0,1,0,0,0,0,0,0,0,0
+62.5,"Boston, MA", MA,7,10000+ employees,164,1,0,0,0,1,associate data scientist,0,1,0,0,0,0,0,0,0,0
+117.5,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,1,scientist,0,0,0,0,0,0,0,0,0,0
+122,"Orlando, FL", FL,3,201 to 500 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85,"Chantilly, VA", VA,2,51 to 200 employees,16,1,0,1,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+60.5,"Scottsdale, AZ", AZ,4,501 to 1000 employees,18,1,0,1,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+180,"Burbank, CA", CA,2,51 to 200 employees,11,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+70.5,"Columbia, MO", MO,5,1001 to 5000 employees,18,0,0,1,0,1,technology associate,0,1,0,0,0,0,0,0,0,0
+118.5,"Chantilly, VA", VA,5,1001 to 5000 employees,3,1,0,1,0,0,big data engineer,0,1,0,0,0,0,0,0,0,0
+66.5,"Chicago, IL", IL,4,501 to 1000 employees,25,1,0,0,0,0,salesforce analytics consultant,0,1,0,0,0,0,0,0,0,0
+107.5,"Boston, MA", MA,5,1001 to 5000 employees,77,0,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+138.5,"Austin, TX", TX,2,51 to 200 employees,10,1,0,1,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+81,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,0,staff scientist,0,1,0,0,0,0,0,0,0,0
+58.5,"Bloomington, IL", IL,5,1001 to 5000 employees,95,1,0,1,0,1,data engineering analyst,0,1,0,0,0,0,0,0,0,0
+107.5,"Chicago, IL", IL,5,1001 to 5000 employees,15,0,0,0,0,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+120.5,"Cambridge, MA", MA,4,501 to 1000 employees,12,0,0,0,0,0,"scientist, pharmacometrics",0,0,1,0,0,0,0,0,0,0
+63.5,"San Francisco, CA", CA,3,201 to 500 employees,13,1,0,1,0,0,manager - data science,0,1,0,0,0,0,0,0,0,0
+103.5,"Owensboro, KY", KY,6,5001 to 10000 employees,145,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+107,"Fremont, CA", CA,6,5001 to 10000 employees,39,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+105.5,"Springfield, VA", VA,6,5001 to 10000 employees,-1,1,0,1,0,0,data engineer,0,0,1,0,0,0,0,0,0,0
+83,"San Diego, CA", CA,4,501 to 1000 employees,48,0,0,0,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+162,"San Francisco, CA", CA,5,1001 to 5000 employees,13,1,0,1,1,1,lead big data engineer,0,1,0,0,0,0,0,0,0,0
+68.5,"Redlands, CA", CA,5,1001 to 5000 employees,51,1,0,1,0,1,product engineer,0,1,0,0,0,0,0,0,0,0
+110.5,"Westlake, OH", OH,7,10000+ employees,42,0,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+115.5,"Des Moines, IA", IA,3,201 to 500 employees,-1,1,0,0,0,1,senior data engineer,0,0,0,0,0,0,0,0,1,0
+87.5,"Alameda, CA", CA,4,501 to 1000 employees,26,0,0,0,0,1,associate research scientist i,0,0,1,0,0,0,0,0,0,0
+80.5,"Richland, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+43,"Cedar Rapids, IA", IA,4,501 to 1000 employees,28,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+140,"Cambridge, MA", MA,3,201 to 500 employees,17,0,0,0,0,1,"associate director/director, safety scientist",0,0,1,0,0,0,0,0,0,0
+172,"Cambridge, MA", MA,7,10000+ employees,171,0,0,0,1,0,"director, precision medicine clinical biomarker scientist",0,0,1,0,0,0,0,0,0,0
+120,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,0,"senior scientist, cell pharmacology/assay development",0,1,0,0,0,0,0,0,0,0
+66.5,"Philadelphia, PA", PA,6,5001 to 10000 employees,37,0,0,0,0,1,data analyst senior,0,1,0,0,0,0,0,0,0,0
+100,"Alameda, CA", CA,4,501 to 1000 employees,26,0,0,0,0,1,senior formulations scientist ii,0,0,1,0,0,0,0,0,0,0
+94.5,"San Francisco, CA", CA,2,51 to 200 employees,14,1,0,0,1,0,lead data engineer,0,1,0,0,0,0,0,0,0,0
+221.5,"San Francisco, CA", CA,4,501 to 1000 employees,9,1,0,0,0,1,data science manager,0,1,0,0,0,0,0,0,0,0
+119,"Seattle, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+95.5,"Chicago, IL", IL,3,201 to 500 employees,25,1,0,0,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+194.5,"Chicago, IL", IL,7,10000+ employees,108,1,0,0,0,0,"director ii, data science",0,1,0,0,0,0,0,0,0,0
+25,"Omaha, NE", NE,7,10000+ employees,24,0,0,0,0,0,medical lab scientist,0,0,0,0,0,1,0,0,0,0
+13.5,"Nashville, TN", TN,6,5001 to 10000 employees,20,0,0,0,0,1,senior data analyst,0,0,1,0,0,0,0,0,0,0
+173,"Jersey City, NJ", NJ,5,1001 to 5000 employees,47,1,0,0,0,1,senior quantitative analyst,0,1,0,0,0,0,0,0,0,0
+105.5,"Austin, TX", TX,4,501 to 1000 employees,-1,1,0,0,1,0,data scientist,1,0,0,0,0,0,0,0,0,0
+71.5,"San Antonio, TX", TX,5,1001 to 5000 employees,73,1,0,0,1,1,research computer scientist - research engineer - senior computer scientist - software development,0,0,0,0,0,1,0,0,0,0
+74,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - toxicologist,0,1,0,0,0,0,0,0,0,0
+62.5,"Huntsville, AL", AL,7,10000+ employees,98,0,0,0,0,1,data engineer,0,0,1,0,0,0,0,0,0,0
+65.5,"Durham, NC", NC,5,1001 to 5000 employees,62,0,0,0,0,0,senior research analytical scientist-non-targeted analysis,0,0,0,0,0,1,0,0,0,0
+85,"Coraopolis, PA", PA,7,10000+ employees,72,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+147.5,"Gaithersburg, MD", MD,7,10000+ employees,107,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+161.5,"Fort Lee, NJ", NJ,5,1001 to 5000 employees,31,1,0,0,1,1,director data science,0,1,0,0,0,0,0,0,0,0
+81,"Roanoke, VA", VA,7,10000+ employees,121,0,0,0,0,1,data engineer,0,0,0,0,0,1,0,0,0,0
+72.5,"Blue Bell, PA", PA,5,1001 to 5000 employees,17,0,0,0,0,1,senior data analyst,0,0,0,0,0,0,1,0,0,0
+139,"San Francisco, CA", CA,2,51 to 200 employees,12,1,0,0,1,1,senior data engineer,0,0,1,0,0,0,0,0,0,0
+136.5,"San Francisco, CA", CA,3,201 to 500 employees,13,0,0,0,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+83,"New York, NY", NY,3,201 to 500 employees,12,1,0,1,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+121,"Cambridge, MA", MA,2,51 to 200 employees,29,0,0,0,1,1,data scientist,0,0,0,0,0,0,0,0,1,0
+74.5,"New York, NY", NY,5,1001 to 5000 employees,18,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85.5,"San Francisco, CA", CA,4,501 to 1000 employees,18,0,0,0,0,1,data analyst chemist - quality system contractor,0,1,0,0,0,0,0,0,0,0
+80.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - biostatistician,0,1,0,0,0,0,0,0,0,0
+167.5,"Cambridge, MA", MA,2,51 to 200 employees,29,0,0,0,0,0,research scientist/principal research scientist - multiphysical systems,0,0,0,0,0,0,0,0,1,0
+107.5,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,1,0,0,0,0,"research scientist, machine learning department",1,0,0,0,0,0,0,0,0,0
+44.5,"Seattle, WA", WA,4,501 to 1000 employees,41,0,0,0,1,1,foundational community supports data analyst,0,0,0,0,0,1,0,0,0,0
+107.5,"Glen Burnie, MD", MD,5,1001 to 5000 employees,131,0,0,0,0,0,"senior health data analyst, star ratings",0,1,0,0,0,0,0,0,0,0
+132.5,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,0,"principal research scientist/team lead, medicinal chemistry - oncology",0,1,0,0,0,0,0,0,0,0
+69.5,"Philadelphia, PA", PA,3,201 to 500 employees,26,0,0,0,0,1,senior data analyst,0,1,0,0,0,0,0,0,0,0
+98.5,"Milpitas, CA", CA,7,10000+ employees,50,1,0,1,1,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+80.5,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,1,quality control scientist iii- analytical development,0,1,0,0,0,0,0,0,0,0
+37,"Watertown, MA", MA,2,51 to 200 employees,12,0,0,0,0,1,"clinical scientist, clinical development",0,1,0,0,0,0,0,0,0,0
+99,"Cambridge, MD", MD,7,10000+ employees,98,1,0,0,0,0,software engineer,0,0,1,0,0,0,0,0,0,0
+96.5,"Cambridge, MA", MA,4,501 to 1000 employees,12,0,0,0,0,1,"manager, safety scientist, medical safety & risk management",0,0,1,0,0,0,0,0,0,0
+53,"Boston, MA", MA,7,10000+ employees,108,0,0,0,0,0,assistant director,0,1,0,0,0,0,0,0,0,0
+103,"Los Angeles, CA", CA,1,1 to 50 employees,9,0,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+139.5,"Palo Alto, CA", CA,4,501 to 1000 employees,14,0,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+67,"Richland, WA", WA,5,1001 to 5000 employees,55,0,0,0,0,0,data scientist,0,0,0,1,0,0,0,0,0,0
+62.5,"Hartford, CT", CT,7,10000+ employees,39,0,0,0,0,1,consultant - analytics,0,0,1,0,0,0,0,0,0,0
+92,"Gaithersburg, MD", MD,7,10000+ employees,107,0,0,0,0,0,scientist - cvrm metabolism,0,0,1,0,0,0,0,0,0,0
+66,"New York, NY", NY,1,1 to 50 employees,40,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+94.5,"Orange, CA", CA,4,501 to 1000 employees,7,1,0,1,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+114,"Fort Lee, NJ", NJ,5,1001 to 5000 employees,31,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+75.5,"New York, NY", NY,2,51 to 200 employees,8,1,0,0,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+96,"Maryland Heights, MO", MO,1,1 to 50 employees,-1,0,0,0,0,1,data scientist,0,0,0,0,0,0,0,1,0,0
+87,"Fort Belvoir, VA", VA,4,501 to 1000 employees,66,1,0,0,0,0,machine learning engineer,0,0,1,0,0,0,0,0,0,0
+86,"Silver Spring, MD", MD,3,201 to 500 employees,14,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+116.5,"Palo Alto, CA", CA,1,1 to 50 employees,8,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+154.5,"Marlborough, MA", MA,5,1001 to 5000 employees,10,1,0,0,0,1,senior scientist (neuroscience),0,1,0,0,0,0,0,0,0,0
+48.5,"Highland, CA", CA,5,1001 to 5000 employees,34,0,0,0,0,1,data analyst,0,1,0,0,0,0,0,0,0,0
+87,"Lenexa, KS", KS,4,501 to 1000 employees,47,1,0,0,0,1,machine learning engineer,0,0,1,0,0,0,0,0,0,0
+80,"Houston, TX", TX,4,501 to 1000 employees,18,1,0,1,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+21.5,"Burleson, TX", TX,5,1001 to 5000 employees,43,0,0,0,1,0,medical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+173,"San Jose, CA", CA,7,10000+ employees,81,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+52.5,"Hoopeston, IL", IL,4,501 to 1000 employees,-1,0,0,0,0,0,r&d specialist/ food scientist,0,1,0,0,0,0,0,0,0,0
+68.5,"Phoenix, AZ", AZ,4,501 to 1000 employees,23,1,0,1,0,0,data engineer,0,1,0,0,0,0,0,0,0,0
+95,"Gaithersburg, MD", MD,7,10000+ employees,107,0,0,0,0,0,"associate principal scientist, pharmacogenomics",0,0,1,0,0,0,0,0,0,0
+69.5,"Bedford, MA", MA,6,5001 to 10000 employees,62,1,0,0,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+107,"Cincinnati, OH", OH,3,201 to 500 employees,135,1,0,0,1,0,data scientist,0,0,0,0,0,0,0,0,1,0
+112,"Charlottesville, VA", VA,4,501 to 1000 employees,10,1,0,1,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+96.5,"Washington, DC", DC,2,51 to 200 employees,23,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+111.5,"Concord, CA", CA,3,201 to 500 employees,-1,0,0,0,0,1,"scientist, bacteriology",0,0,1,0,0,0,0,0,0,0
+154.5,"Cambridge, MA", MA,7,10000+ employees,239,0,0,1,1,1,"associate director, data engineering and aritifical intelligence",0,0,1,0,0,0,0,0,0,0
+95,"New York, NY", NY,3,201 to 500 employees,9,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+97.5,"New York, NY", NY,4,501 to 1000 employees,13,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+128.5,"Chicago, IL", IL,3,201 to 500 employees,12,1,0,0,1,1,data scientist,0,1,0,0,0,0,0,0,0,0
+124,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,0,senior data scientist,1,0,0,0,0,0,0,0,0,0
+194,"San Francisco, CA", CA,4,501 to 1000 employees,14,0,0,0,1,1,data scientist,0,0,0,0,0,0,0,0,1,0
+31.5,"Vail, CO", CO,4,501 to 1000 employees,54,0,0,0,0,0,clinical laboratory scientist,0,0,0,0,1,0,0,0,0,0
+50,"Salt Lake City, UT", UT,7,10000+ employees,-1,0,0,0,1,1,junior data analyst,0,0,0,0,0,1,0,0,0,0
+104.5,"New York, NY", NY,3,201 to 500 employees,15,1,0,1,1,1,data scientist,0,0,1,0,0,0,0,0,0,0
+69.5,"Phoenix, AZ", AZ,3,201 to 500 employees,51,1,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+121,"Irvine, CA", CA,7,10000+ employees,23,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+85.5,"Charlotte, NC", NC,3,201 to 500 employees,12,1,0,0,0,1,data engineer,0,1,0,0,0,0,0,0,0,0
+113,"Aliso Viejo, CA", CA,5,1001 to 5000 employees,23,1,0,1,1,1,data engineer,0,0,1,0,0,0,0,0,0,0
+103,"San Francisco, CA", CA,3,201 to 500 employees,15,1,0,0,1,0,data scientist,0,0,0,0,0,0,0,0,1,0
+90.5,"Cambridge, MA", MA,7,10000+ employees,190,0,0,0,1,0,"scientist, immuno-oncology",0,0,1,0,0,0,0,0,0,0
+153,"Los Angeles, CA", CA,2,51 to 200 employees,12,1,0,1,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+106.5,"McLean, VA", VA,6,5001 to 10000 employees,62,1,0,1,0,1,data scientist,0,0,0,0,0,1,0,0,0,0
+130,"Ann Arbor, MI", MI,2,51 to 200 employees,9,0,0,0,0,1,data scientist,0,1,0,0,0,0,0,0,0,0
+123.5,"Dublin, CA", CA,5,1001 to 5000 employees,32,0,0,0,0,1,products data analyst ii,0,0,1,0,0,0,0,0,0,0
+86.5,"New York, NY", NY,5,1001 to 5000 employees,21,0,0,0,1,1,data architect,0,0,1,0,0,0,0,0,0,0
+64,"Scotts Valley, CA", CA,4,501 to 1000 employees,24,0,0,0,0,0,analytics manager,0,0,0,0,0,1,0,0,0,0
+47,"New York, NY", NY,3,201 to 500 employees,10,0,0,1,0,0,lead data analyst,0,1,0,0,0,0,0,0,0,0
+162,"San Jose, CA", CA,7,10000+ employees,38,1,0,0,0,1,data science engineer,0,0,1,0,0,0,0,0,0,0
+140,"Gaithersburg, MD", MD,7,10000+ employees,107,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+89,"Olympia, WA", WA,2,51 to 200 employees,-1,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+98,"Knoxville, TN", TN,7,10000+ employees,62,1,0,0,0,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+137,"New York, NY", NY,7,10000+ employees,107,1,0,0,0,0,data scientist,0,0,1,0,0,0,0,0,0,0
+99,"Denver, CO", CO,4,501 to 1000 employees,105,1,0,0,1,0,data engineer,0,0,0,0,0,1,0,0,0,0
+54,"Milwaukee, WI", WI,4,501 to 1000 employees,56,0,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+109,"Franklin, TN", TN,5,1001 to 5000 employees,16,0,0,0,1,1,senior data engineer,0,1,0,0,0,0,0,0,0,0
+109,"Rockville, MD", MD,3,201 to 500 employees,21,0,0,0,1,0,data engineer,0,1,0,0,0,0,0,0,0,0
+139.5,"Natick, MA", MA,5,1001 to 5000 employees,36,1,0,0,0,0,data scientist,0,1,0,0,0,0,0,0,0,0
+254,"Chicago, IL", IL,7,10000+ employees,108,1,0,0,0,0,"director, data science ",0,1,0,0,0,0,0,0,0,0
+125,"New York, NY", NY,5,1001 to 5000 employees,45,1,0,0,1,1,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+106.5,"Cambridge, MA", MA,7,10000+ employees,24,1,0,0,0,0,associate  expert data science,0,0,1,0,0,0,0,0,0,0
+27.5,"Millville, DE", DE,5,1001 to 5000 employees,85,0,0,0,0,0,med tech/lab scientist,0,0,0,0,0,1,0,0,0,0
+73,"South San Francisco, CA", CA,3,201 to 500 employees,8,0,0,0,0,0,"scientist, molecular/cellular biologist",0,0,0,0,0,0,0,0,1,0
+81,"Rockville, MD", MD,3,201 to 500 employees,59,0,0,0,0,1,staff scientist-downstream process development,0,1,0,0,0,0,0,0,0,0
+128.5,"Philadelphia, PA", PA,1,1 to 50 employees,-1,1,0,1,1,0,data scientist,0,1,0,0,0,0,0,0,0,0
+99.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,scientist - analytical services,0,1,0,0,0,0,0,0,0,0
+92,"South San Francisco, CA", CA,4,501 to 1000 employees,14,0,0,0,1,1,"associate scientist/senior associate scientist, antibody discovery",0,1,0,0,0,0,0,0,0,0
+45.5,"Richfield, OH", OH,4,501 to 1000 employees,31,0,0,0,0,0,junior data analyst,0,1,0,0,0,0,0,0,0,0
+122.5,"Indianapolis, IN", IN,2,51 to 200 employees,24,1,0,1,1,0,senior data engineer,0,1,0,0,0,0,0,0,0,0
+37.5,"Tampa, FL", FL,5,1001 to 5000 employees,43,0,0,0,0,1,clinical data analyst,0,0,0,0,0,0,0,0,1,0
+54,"Worcester, MA", MA,6,5001 to 10000 employees,168,0,0,0,0,0,junior data analyst,0,0,1,0,0,0,0,0,0,0
+53.5,"New York, NY", NY,5,1001 to 5000 employees,18,1,0,0,0,1,business data analyst,0,1,0,0,0,0,0,0,0,0
+140,"Chicago, IL", IL,6,5001 to 10000 employees,52,1,0,0,0,1,data scientist,0,0,1,0,0,0,0,0,0,0
+77.5,"Hampton, VA", VA,6,5001 to 10000 employees,62,0,0,0,0,0,senior data science systems engineer,0,0,0,0,0,1,0,0,0,0
+26.5,"Cambridge, MA", MA,1,1 to 50 employees,44,0,0,0,0,1,environmental engineer,0,1,0,0,0,0,0,0,0,0
+117.5,"Winston-Salem, NC", NC,6,5001 to 10000 employees,145,0,0,0,0,1,senior scientist - regulatory submissions,0,1,0,0,0,0,0,0,0,0
+70.5,"San Diego, CA", CA,4,501 to 1000 employees,14,0,0,0,0,0,scientist - biomarker and flow cytometry,0,1,0,0,0,0,0,0,0,0
+61.5,"San Francisco, CA", CA,2,51 to 200 employees,9,0,0,0,0,1,revenue analytics manager,0,1,0,0,0,0,0,0,0,0
+80,"Marietta, GA", GA,5,1001 to 5000 employees,5,0,0,0,0,1,senior scientist method development,0,1,0,0,0,0,0,0,0,0
+70,"Ithaca, NY", NY,5,1001 to 5000 employees,5,0,0,0,0,1,associate scientist,0,1,0,0,0,0,0,0,0,0
+120,"Cambridge, MA", MA,0,Unknown,-1,0,0,0,0,1,"research scientist, immunology - cancer biology",0,1,0,0,0,0,0,0,0,0
+90,"Quincy, MA", MA,5,1001 to 5000 employees,32,0,0,1,0,1,data engineer ii,0,1,0,0,0,0,0,0,0,0
+111,"Palo Alto, CA", CA,1,1 to 50 employees,13,1,0,0,1,1,machine learning engineer,0,1,0,0,0,0,0,0,0,0
+138.5,"San Francisco, CA", CA,2,51 to 200 employees,12,1,0,0,0,0,senior data analyst,0,0,1,0,0,0,0,0,0,0
+68.5,"Boston, MA", MA,6,5001 to 10000 employees,169,0,0,0,0,1,data science project manager,0,1,0,0,0,0,0,0,0,0
+87.5,"San Francisco, CA", CA,3,201 to 500 employees,9,1,0,0,1,1,data engineer,0,1,0,0,0,0,0,0,0,0
+111.5,"Plymouth Meeting, PA", PA,7,10000+ employees,3,0,0,0,0,0,"principal, data science - advanced analytics",0,0,1,0,0,0,0,0,0,0
+84.5,"Cambridge, MA", MA,7,10000+ employees,190,0,0,0,1,0,"senior scientist, immuno-oncology - oncology",0,0,1,0,0,0,0,0,0,0
+102.5,"Nashville, TN", TN,5,1001 to 5000 employees,14,1,0,1,1,0,senior data engineer,0,0,1,0,0,0,0,0,0,0
+73.5,"Pittsburgh, PA", PA,4,501 to 1000 employees,36,0,0,0,0,1,data scientist,1,0,0,0,0,0,0,0,0,0
+127.5,"Allentown, PA", PA,1,1 to 50 employees,-1,0,0,0,0,1,data science manager,0,1,0,0,0,0,0,0,0,0
+93.5,"Beavercreek, OH", OH,4,501 to 1000 employees,53,1,0,0,0,0,,0,0,0,0,0,1,0,0,0,0
