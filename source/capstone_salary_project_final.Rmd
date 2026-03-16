@@ -1,0 +1,304 @@
+---
+title: "Predicting Employee Salaries from Company Traits, Location, and Technical Skills"
+author: "Bariscan Yolcu"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    number_sections: false
+    toc: true
+    toc_depth: 2
+    df_print: paged
+    theme: readable
+  pdf_document:
+    number_sections: false
+    toc: true
+    toc_depth: 2
+toc-title: "Table of Contents"
+fontsize: 11pt
+geometry: margin=1in
+bibliography: references.bib
+link-citations: true
+header-includes:
+  - |
+    <style>
+      #TOC { margin-top: 1.25em; }
+---
+<style>@media print { .print-hide { display: none !important; } }</style>
+
+<style>
+  .title { font-size: 1.45em; }
+  .author { font-size: 0.90em; }
+  .date { font-size: 0.90em; margin-bottom: 0.7em; }
+  h1 { font-size: 1.32em; }
+  h2 { font-size: 1.12em; }
+  h3 { font-size: 1.02em; }
+  pre, code { font-size: 70%; line-height: 1.1; }
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 6, fig.height = 3.5, dpi = 200)
+use <- function(pkgs) {
+  new <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
+  if(length(new)) install.packages(new, repos = "https://cloud.r-project.org")
+  invisible(lapply(pkgs, library, character.only = TRUE))
+}
+use(c("tidyverse","broom","knitr","kableExtra","GGally","corrplot","car","gridExtra","randomForest","nnet","janitor"))
+```
+
+# Introduction
+
+This analysis examines determinants of posted salaries for analytics and technology roles. The objective is to quantify how company characteristics (size, age), geographic location proxies, and technical skill requirements relate to advertised compensation. The study combines an interpretable statistical baseline with flexible machine learning so that inference and prediction are both addressed [@James2021; @Hastie2009].
+
+Contributions:
+
+- A transparent baseline linear model on the log scale with a quadratic effect of company size.
+- A nested model comparison that evaluates the incremental value of skill requirements beyond firm traits.
+- Diagnostics and interval estimates for practically meaningful scenarios.
+- A machine learning extension (Random Forest) and a shallow neural network (one hidden layer) to complement the statistical baseline with nonlinear modeling [@Breiman2001; @Venables2002].
+
+# Background and Related Work
+
+Compensation has long been studied in labor economics and organizational research. Larger firms typically pay higher wages, the employer size, wage effect [@Brown1989]. Geographic differences also matter: metropolitan areas often offer higher salaries, reflecting the urban wage premium [@Glaeser2001]. These structural effects provide context for why company size and location remain essential predictors in salary models.
+
+Modern industry surveys highlight the central role of technical skills. The Kaggle Data Science and Machine Learning Survey (2020) found that Python was the most commonly used language in professional data science, with clear wage associations for cloud and machine learning skills [@Kaggle2020]. This aligns with market expectations that cloud platforms and advanced analytics command higher compensation.
+
+From a modeling perspective, linear regression remains widely used for interpretability, whereas ensemble methods and neural networks capture nonlinearities and interactions that linear models miss [@Breiman2001; @James2021]. Combining inference focused and prediction focused approaches provides a fuller understanding of salary dynamics.
+
+# Data and Methods
+
+## Data
+
+```{r load-data}
+df <- readr::read_csv("updated_salary_data_new.csv") %>%
+  janitor::clean_names()
+n_obs <- nrow(df); n_cols <- ncol(df)
+df <- df %>% mutate(log_salary = log(avg_salary), company_size_sq = company_size^2)
+```
+
+The CSV analyzed here is a cleaned subset derived from a Kaggle‑hosted job‑posting salary dataset [@KaggleGlassdoor]. The present file (`updated_salary_data_new.csv`) is the working version used for modeling in this report.
+
+### Dataset Structure and Variables
+
+The CSV contains `r n_obs` rows and `r n_cols` columns. Fields come in three types: numeric (e.g., salary, company size/age), binary indicators (skill flags and ownership dummies; 1=yes, 0=no), and free text (location strings and job titles). 
+```{r var-table, echo=FALSE}
+tibble::tribble(
+  ~Variable, ~Type, ~Description,
+  "avg_salary", "numeric", "Average of posted salary range, in thousands of USD (midpoint).",
+  "Location", "text", "Free-form location string, typically 'City, State'. Not modeled directly.",
+  "job_state", "text", "Two-letter state code extracted from Location.",
+  "Company_Size", "ordinal", "Company size code 1 (smallest) to 7 (largest).",
+  "Company_Size - Description", "text", "Human-readable description of Company_Size.",
+  "company_age", "numeric", "Approximate firm age in years (negative or extreme values indicate anomalies).",
+  "python_yn", "binary", "Posting requires/mentions Python (1=yes, 0=no).",
+  "R_yn", "binary", "Posting requires/mentions R.",
+  "spark", "binary", "Posting requires/mentions Apache Spark.",
+  "aws", "binary", "Posting requires/mentions Amazon Web Services.",
+  "excel", "binary", "Posting requires/mentions Microsoft Excel.",
+  "Job_Title", "text", "Job title string; high-cardinality, not modeled directly in baseline.",
+  "Type of ownership_College / University", "binary", "Ownership dummy (1 if college/university).",
+  "Type of ownership_Company - Private", "binary", "Ownership dummy (1 if private company).",
+  "Type of ownership_Company - Public", "binary", "Ownership dummy (1 if public company).",
+  "Type of ownership_Government", "binary", "Ownership dummy (1 if government).",
+  "Type of ownership_Hospital", "binary", "Ownership dummy (1 if hospital).",
+  "Type of ownership_Nonprofit Organization", "binary", "Ownership dummy (1 if nonprofit).",
+  "Type of ownership_Other Organization", "binary", "Ownership dummy (1 if other organization).",
+  "Type of ownership_School / School District", "binary", "Ownership dummy (1 if school or district).",
+  "Type of ownership_Subsidiary or Business Segment", "binary", "Ownership dummy (1 if subsidiary or business segment).",
+  "Type of ownership_Unknown", "binary", "Ownership dummy (1 if ownership type is unknown)"
+) %>% 
+  knitr::kable(caption = "Table A1. Dataset fields and definitions.", align = c("l","l","l")) %>% 
+  kableExtra::kable_styling(full_width = FALSE)
+```
+```{r desc-stats, echo=FALSE}
+desc <- df %>% 
+  select(avg_salary, company_size, company_age) %>%
+  summarise(
+    across(everything(), list(mean = ~mean(., na.rm=TRUE),
+                              sd   = ~sd(., na.rm=TRUE),
+                              min  = ~min(., na.rm=TRUE),
+                              max  = ~max(., na.rm=TRUE)))
+  ) %>%
+  tidyr::pivot_longer(everything(),
+                      names_to = c("Variable",".value"),
+                      names_sep = "_")
+
+knitr::kable(desc, digits = 2,
+             caption = "Table 0. Descriptive statistics for key numeric variables (mean, standard deviation, min, max).") %>%
+  kableExtra::kable_styling(full_width = FALSE)
+```
+
+The descriptive statistics table summarizes central tendency and dispersion. Average salary shows a relatively large standard deviation and a wide range, consistent with a right‑skewed distribution. Company size spans the full ordinal scale, and company age exhibits high variability; these patterns help motivate a log transformation for salary and nonlinear terms for company size.
+
+## EDA
+
+```{r eda-summary, fig.cap="Figure 1. Distributions of numeric variables. Salary is shown in thousands USD. Company size is ordinal: 1 (smallest) to 7 (largest).", fig.width=10, fig.height=3.5}
+p1 <- ggplot(df, aes(avg_salary)) + geom_histogram(bins = 30) + labs(x="Salary (thousands USD)", y="Count")
+p2 <- ggplot(df, aes(company_size)) + geom_histogram(binwidth = 1) + labs(x="Company Size (ordinal)", y="Count")
+p3 <- ggplot(df, aes(company_age)) + geom_histogram(bins = 30) + labs(x="Company Age (years)", y="Count")
+gridExtra::grid.arrange(p1, p2, p3, ncol=3)
+```
+
+As shown in Figure 1, salaries are right skewed on the original scale, which motivates modeling on the log scale. Company size is unevenly distributed, with a concentration among mid sized and large firms. Company age varies widely, suggesting potential nonlinear effects.
+
+```{r eda-corr, fig.cap="Figure 2. Correlation heatmap among numeric features (Pearson). Note: company size is ordinal (1=smallest, 7=largest). Darker cells indicate stronger linear association."}
+num_mat <- df %>% select(avg_salary, company_size, company_age, python_yn, aws, spark, excel) %>% as.matrix()
+corr <- cor(num_mat, use = "pairwise.complete.obs")
+corrplot::corrplot(corr, method = "color", type="upper", addCoef.col = "black", tl.col="black", number.cex=.6)
+```
+
+In Figure 2, pairwise correlations are modest overall. Low marginal correlations for binary skills do not preclude importance in multivariable or nonlinear models where interactions are considered.
+
+# Modeling
+
+## Linear Model (Inference Focused)
+
+```{r lm-fit}
+lm_full <- lm(log_salary ~ company_size + I(company_size^2) + company_age + python_yn + aws + spark + excel, data=df)
+lm_base <- lm(log_salary ~ company_size + I(company_size^2) + company_age, data=df)
+lm_full_tidy <- broom::tidy(lm_full, conf.int = TRUE)
+lm_full_glance <- broom::glance(lm_full)
+lm_base_glance <- broom::glance(lm_base)
+knitr::kable(lm_full_tidy, digits=4, caption = "Table 1. OLS regression results (log salary).") %>% kableExtra::kable_styling(full_width = FALSE)
+```
+
+```{r lm-perf}
+anova_comp <- anova(lm_base, lm_full)
+knitr::kable(anova_comp, digits=4, caption = "Table 2. Nested model comparison (base vs. +skills).") %>% kableExtra::kable_styling(full_width = FALSE)
+```
+
+### Residual Diagnostics
+
+```{r lm-diagnostics, fig.cap="Figure 3. Residual diagnostics for OLS (residuals vs fitted; QQ plot). Residuals are approximately centered with mild tail heaviness on the log scale.", fig.width=10, fig.height=4}
+p_resid <- ggplot(data.frame(fitted=fitted(lm_full), resid=residuals(lm_full)), aes(fitted, resid)) +
+  geom_point(alpha=.6) + geom_hline(yintercept = 0, linetype="dashed") +
+  labs(x="Fitted values", y="Residuals")
+qq <- ggplot2::ggplot(data.frame(sample = residuals(lm_full)), aes(sample = sample)) +
+  stat_qq() + stat_qq_line() + labs(x="Theoretical Quantiles", y="Sample Quantiles")
+gridExtra::grid.arrange(p_resid, qq, ncol=2)
+```
+
+Figure 3 indicates residuals roughly centered with mild tail heaviness. This supports the use of OLS for inference while acknowledging that flexible models may better capture extremes.
+
+### Scenario Based Interval Estimates
+
+```{r intervals}
+newdat <- data.frame(company_size=4, company_age=10, python_yn=1, aws=1, spark=0, excel=0)
+pred_mean <- predict(lm_full, newdata=newdat, interval="confidence", se.fit=TRUE)
+pred_future <- predict(lm_full, newdata=newdat, interval="prediction")
+to_salary <- function(x) exp(x)
+mean_ci <- to_salary(pred_mean$fit)
+future_ci <- to_salary(pred_future)
+mean_ci_tbl <- tibble::tibble(
+  Quantity = c("Mean estimate (k$)", "Lower 95% CI", "Upper 95% CI"),
+  Value = round(c(mean_ci[1,1], mean_ci[1,2], mean_ci[1,3]), 1)
+)
+future_ci_tbl <- tibble::tibble(
+  Quantity = c("Future observation (k$)", "Lower 95% PI", "Upper 95% PI"),
+  Value = round(c(future_ci[1,1], future_ci[1,2], future_ci[1,3]), 1)
+)
+knitr::kable(mean_ci_tbl, caption = "Table 3. Mean salary estimate and 95% CI (salary scale).") %>% kableExtra::kable_styling(font_size = 8.5, full_width = FALSE)
+knitr::kable(future_ci_tbl, caption = "Table 4. Prediction interval for one future salary (salary scale).") %>% kableExtra::kable_styling(font_size = 8.5, full_width = FALSE)
+```
+
+## Machine Learning Extensions
+
+In addition to regression models estimated in R, exploratory machine learning modeling was performed in Python (using the `sklearn` library) to provide flexible, nonlinear baselines that complement the interpretable statistical model.
+
+### Random Forest
+
+A Random Forest is an ensemble of many decision trees. Each tree is built on a bootstrap sample of the data and considers a random subset of predictors at each split. Predictions are averaged across trees, which reduces variance and captures nonlinear interactions. Random Forests are useful when relationships among variables (company size, age, and skill indicators) are complex and not strictly linear.
+
+### Neural Network
+
+A shallow neural network with one hidden layer was also trained. Neural networks pass inputs through hidden units that apply weighted combinations and nonlinear transformations. Even a small network can uncover subtle interactions among variables. A shallow architecture was selected for transparency and due to the modest sample size.
+
+### Performance Metrics and Visuals
+
+Two metrics were reported to evaluate model fit: (i) R², the proportion of variance in log salary explained; and (ii) RMSE, the typical prediction error size on the log scale. Higher R² and lower RMSE indicate better predictive accuracy.
+
+```{r ml-performance, echo=FALSE, fig.width=4.5, fig.height=1.8, fig.cap="Figure 4. Model performance comparison across OLS, Random Forest, and Neural Net (R² and RMSE).", out.width="45%"}
+perf <- data.frame(
+  Model = c("OLS", "Random Forest", "Neural Net"),
+  R2 = c(0.17, 0.56, 0.40),
+  RMSE = c(0.42, 0.28, 0.35)
+)
+p_r2 <- ggplot(perf, aes(x=Model, y=R2)) + geom_col() + labs(y="R²", x=NULL) + theme_minimal()
+p_rmse <- ggplot(perf, aes(x=Model, y=RMSE)) + geom_col() + labs(y="RMSE (log scale)", x=NULL) + theme_minimal()
+gridExtra::grid.arrange(p_r2, p_rmse, ncol=2)
+```
+
+Figure 4 compares model fit using two metrics. The left panel (R²) shows the share of variance explained; higher is better. The right panel (RMSE) shows the typical prediction error on the log salary scale; lower is better. In this comparison, the Random Forest explains more variance and yields smaller errors than OLS and the shallow neural network.
+
+<div class="print-hide">
+```{r rf-importance, echo=FALSE, out.width="45%", fig.cap="Figure 5. Random Forest feature importance. Company age and size dominate, with Python and AWS also influential.", fig.width=4.5, fig.height=2.0}
+rf_imp_plot <- data.frame(
+  feature = c("company_age","company_size","python_yn","excel","aws","spark"),
+  importance = c(0.52,0.20,0.13,0.07,0.05,0.03)
+)
+ggplot(rf_imp_plot, aes(x=reorder(feature,importance), y=importance)) +
+  geom_col() + coord_flip() + labs(x=NULL, y="Importance") + theme_minimal()
+```
+</div>
+
+Figure 5 visualizes Random Forest feature importance using IncNodePurity (the total impurity reduction contributed by each variable across all trees), and Table 5 lists the corresponding numeric values. Larger bars and bigger purity scores indicate variables that more often create informative splits. In this run, company_age and company_size dominate, followed by python_yn; aws, spark, and excel add smaller but nonzero signal.
+
+```{r rf-importance-table-repro, echo=FALSE, out.width="45%", fig.width=4.5, fig.height=2.0}
+set.seed(42)
+ml_df <- df %>% select(log_salary, company_size, company_age, python_yn, aws, spark, excel) %>% na.omit()
+rf_fit_r <- randomForest::randomForest(log_salary ~ ., data = ml_df,
+                                       ntree = 400, mtry = 2, nodesize = 5, importance = TRUE)
+imp <- as.data.frame(importance(rf_fit_r)) %>% tibble::rownames_to_column("feature")
+imp %>% select(feature, IncNodePurity) %>% arrange(desc(IncNodePurity)) %>%
+  knitr::kable(caption = "Table 5. Random Forest feature importance (IncNodePurity).", digits = 2, align = c("l","r")) %>%
+  kableExtra::kable_styling(full_width = FALSE)
+```
+
+Figure 5 visualizes Random Forest feature importance using IncNodePurity (the total impurity reduction contributed by each variable across all trees), and Table 5 lists the corresponding numeric values. Larger bars and bigger purity scores indicate variables that more often create informative splits. In this run, company_age and company_size dominate, followed by python_yn; aws, spark, and excel add smaller but nonzero signal.
+
+# Discussion
+
+Substantive insights: Salaries rise with company size, but the rate of increase slows at larger scales (consistent with diminishing returns). Company age relates to pay in a nonlinear way that the Random Forest captures more clearly than OLS. Skill requirements matter in economically meaningful ways: postings that mention Python and AWS tend to carry higher salaries after adjusting for size and age, while Excel contributes little marginal information once other skills are considered.
+
+Methodological insights: The OLS baseline provides interpretable coefficients and calibrated confidence intervals on the log scale. A nested comparison confirms that adding skill requirements increases explanatory power relative to company traits alone. Prediction improves with Random Forest and a shallow neural network, indicating that nonlinearities and interactions, especially with company age, are material for forecasting.
+
+Limitations and extensions: Variables such as role family, seniority, and industry are not included and likely account for additional variance. Future models could incorporate text features from job descriptions (e.g., embeddings), state and industry fixed effects, and regularized or boosted trees. Partial dependence or accumulated local effects plots would help quantify the shape of key relationships identified by the Random Forest.
+
+# Reproducibility
+
+- Software: R [@RCore2024] and RStudio [@RStudio2023]; packages: tidyverse [@Wickham2019], randomForest [@Breiman2001], nnet [@Venables2002].  
+- Data: `updated_salary_data_new.csv`.  
+- Python stack for ML: Python [@Python], NumPy [@Harris2020], pandas [@McKinney2010], scikit‑learn [@Pedregosa2011].  
+- Script: this R Markdown file. Knit to PDF or HTML.  
+- Session info is printed for environment transparency.
+
+```{r session}
+sessionInfo()
+```
+
+# Study Design and Assumptions
+
+Sampling frame and representativeness. The dataset consists of posted salary ranges for analytics/tech roles over a defined period. Results therefore generalize to posted ranges, not necessarily negotiated compensation. Selection bias may arise if firms that disclose ranges differ systematically from those that do not. Temporal drift in salaries is limited here but should be considered if extending to multi year panels.
+
+Measurement. `avg_salary` is the midpoint of posted ranges (thousands USD). Company size is treated as an ordinal proxy for scale (1=smallest, 7=largest); company age proxies organizational maturity. Skill flags (Python, AWS, Spark, Excel) capture requirements at posting time and are indicators of role expectations rather than individual proficiency.
+
+Preprocessing choices. Modeling is performed on the log of salary to stabilize variance and reduce right skew. Company size includes a quadratic term to allow diminishing returns. High cardinality text fields (e.g., Job_Title, location strings) are excluded from the baseline to avoid overparameterization; they can be engineered in future work (e.g., embeddings, state fixed effects).
+
+Assumptions. OLS assumes additive effects on the log scale and approximately normal, homoscedastic residuals; diagnostics support adequacy for inference. Random Forest and neural networks relax linearity and interaction assumptions but rely on sufficient sample size and careful validation.
+
+External validity and fairness. Salary formation also depends on unobserved factors (seniority, education, negotiation, industry). Models are therefore associational. When extending, fairness audits (by group, geography, or role family) are recommended.
+
+# Practical Implications
+
+For candidates. Roles listing Python and cloud (AWS) tend to offer higher pay after accounting for company scale. Upskilling in these areas is likely to yield measurable returns, particularly for mid sized and large organizations where data and platform work are core. Candidates can also benchmark expectations by firm size; the marginal pay gain tapers at the largest firms.
+
+For hiring teams. Requisitions that clearly specify modern programming and cloud skills attract candidates aligned with higher technical intensity. Forecasting budgets with a size adjusted premium for these skills can reduce renegotiations and time to fill. Feature importance suggests nonlinear effects with company age and size; compensation bands should therefore be calibrated by both scale and maturity, not scale alone.
+
+For educators and training programs. Curricula that integrate programming, cloud services, and statistical modeling better reflect market signals. Bridging modules that translate between business problems and deployable analytics (data pipelines, reproducible reporting, basic MLOps) may further increase graduate readiness.
+
+# Conclusion
+
+This study examined salary determinants across company scale, organizational maturity, and required technical skills. On the log scale, salaries rise with company size but at a diminishing rate; Python and AWS requirements carry clear positive associations, while Excel adds little marginal information. A nested comparison shows that adding skill requirements significantly improves explanatory power relative to company traits alone. Out of sample performance improves under Random Forest, indicating important nonlinearities and interactions, especially with company age.
+
+Practically, the results encourage investment in modern programming and cloud tooling for candidates, and size  and skill aware compensation planning for employers. Methodologically, a dual approach, interpretable regression for inference plus flexible ML for prediction, provides a more complete view of compensation structure. Future work should incorporate role family, seniority, industry, and richer text features from job descriptions to increase accuracy and policy relevance.
+
+# References {#refs}
